@@ -11,9 +11,9 @@ Install `eslint-config-landr` and all of it's peer dependencies as dev dependenc
 
 ```bash
 # Using npm
-npm install eslint-config-landr @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier eslint-plugin-prettier prettier typescript --save-dev
+npm install eslint eslint-config-landr @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier eslint-plugin-prettier prettier typescript --save-dev
 # Using yarn
-yarn add eslint-config-landr @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier eslint-plugin-prettier prettier typescript --dev
+yarn add eslint eslint-config-landr @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier eslint-plugin-prettier prettier typescript --dev
 ```
 
 Add `landr` as a value to the the `extends` array of your eslint config file.

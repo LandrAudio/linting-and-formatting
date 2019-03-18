@@ -15,6 +15,12 @@ module.exports = {
             "options": {
                 "trailingComma": "es5"
             }
+        },
+        {
+            "files": "*.{js,ts,jsx,tsx}",
+            "options": {
+                "tabWidth": 4,
+            }
         }
     ]
 }

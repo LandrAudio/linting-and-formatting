@@ -17,10 +17,10 @@ module.exports = {
             }
         },
         {
-            "files": "*.{js,ts,jsx,tsx}",
+            "files": "*.{js,ts,jsx,tsx,scss,json,html}",
             "options": {
                 "tabWidth": 4,
             }
-        }
+        },
     ]
 }

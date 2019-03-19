@@ -21,7 +21,7 @@ module.exports = {
         "declaration-colon-space-after": "always",
         "property-no-vendor-prefix": true,
         "value-no-vendor-prefix": true,
-        "number-leading-zero": "never",
+        "number-leading-zero": "always",
         "function-name-case": null,
         "function-url-quotes": "always",
         "font-weight-notation": "numeric",

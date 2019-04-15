@@ -1,29 +1,29 @@
 {
-  "name": "stylelint-config-landr",
-  "version": "0.0.2",
-  "author": "Robert Cooper <rcooper@landr.com>",
-  "description": "LANDR's shareable Stylelint configuration",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Mixgenius/linting-and-formatting/tree/master/stylelint-config-landr"
-  },
-  "keywords": [
-    "stylelint",
-    "css",
-    "styling",
-    "sass",
-    "config"
-  ],
-  "main": "index.js",
-  "license": "MIT",
-  "devDependencies": {
-    "stylelint": "^9.10.1",
-    "stylelint-config-standard": "^18.2.0",
-    "stylelint-scss": "^3.5.4"
-  },
-  "peerDependencies": {
-    "stylelint": "^9.10.1",
-    "stylelint-config-standard": "^18.2.0",
-    "stylelint-scss": "^3.5.4"
-  }
+    "name": "stylelint-config-landr",
+    "version": "0.0.2",
+    "author": "Robert Cooper <rcooper@landr.com>",
+    "description": "LANDR's shareable Stylelint configuration",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Mixgenius/linting-and-formatting/tree/master/stylelint-config-landr"
+    },
+    "keywords": [
+        "stylelint",
+        "css",
+        "styling",
+        "sass",
+        "config"
+    ],
+    "main": "index.js",
+    "license": "MIT",
+    "devDependencies": {
+        "stylelint": "^9.10.1",
+        "stylelint-config-standard": "^18.2.0",
+        "stylelint-scss": "^3.5.4"
+    },
+    "peerDependencies": {
+        "stylelint": "^9.10.1",
+        "stylelint-config-standard": "^18.2.0",
+        "stylelint-scss": "^3.5.4"
+    }
 }

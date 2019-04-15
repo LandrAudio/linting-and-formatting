@@ -4,7 +4,7 @@ This package exposes the stylelint configuration used for LANDR projects.
 
 ## Installation
 
-Install `stylelint-config-landr` and all of it's peer dependencies as dev dependencies of your project.
+Install `stylelint-config-landr` and all of its peer dependencies as dev dependencies of your project.
 
 ```bash
 # Using npm

@@ -1,20 +1,20 @@
 {
-  "name": "prettier-config-landr",
-  "version": "0.0.3",
-  "description": "LANDR's shareable Prettier config",
-  "main": "index.js",
-  "repository": "https://github.com/Mixgenius/linting-and-formatting/tree/master/prettier-config-landr",
-  "author": "Robert Cooper <rcooper@landr.com>",
-  "license": "MIT",
-  "keywords": [
-    "formatting",
-    "config",
-    "prettier"
-  ],
-  "devDependencies": {
-    "prettier": "^1.16.4"
-  },
-  "peerDependencies": {
-    "prettier": "^1.16.4"
-  }
+    "name": "prettier-config-landr",
+    "version": "0.0.3",
+    "description": "LANDR's shareable Prettier config",
+    "main": "index.js",
+    "repository": "https://github.com/Mixgenius/linting-and-formatting/tree/master/prettier-config-landr",
+    "author": "Robert Cooper <rcooper@landr.com>",
+    "license": "MIT",
+    "keywords": [
+        "formatting",
+        "config",
+        "prettier"
+    ],
+    "devDependencies": {
+        "prettier": "^1.16.4"
+    },
+    "peerDependencies": {
+        "prettier": "^1.16.4"
+    }
 }

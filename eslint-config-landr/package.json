@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-landr",
   "description": "LANDR's shareable ESLint config",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "index.js",
   "license": "MIT",
   "author": "Robert Cooper <rcooper@landr.com>",

@@ -19,7 +19,7 @@ module.exports = {
         ]
       }
     ],
-    strict: ["error", "global"],
+    "strict": ["error", "global"],
     "no-undef": "error",
     "spaced-comment": [
       "error",
@@ -31,7 +31,7 @@ module.exports = {
         }
       }
     ],
-    curly: "error",
+    "curly": "error",
     "eol-last": "error",
     "guard-for-in": "error",
     "no-labels": "error",
@@ -50,8 +50,9 @@ module.exports = {
     "no-var": "error",
     "brace-style": "error",
     "prefer-template": "error",
-    radix: "error",
+    "radix": "error",
     "space-before-blocks": "error",
+    "import/order": ["error", {"newlines-between": "never"}],
     "@typescript-eslint/no-use-before-define": "error",
     "@typescript-eslint/camelcase": [
       "error",

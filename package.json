@@ -1,0 +1,17 @@
+{
+  "name": "linting-and-formatting",
+  "repository": "git@github.com:Mixgenius/linting-and-formatting.git",
+  "author": "LANDR",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.6.0",
+    "@typescript-eslint/parser": "^1.6.0",
+    "eslint": "^5.16.0",
+    "eslint-config-landr": "^0.0.4",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.17.0",
+    "prettier-config-landr": "^0.0.3",
+    "typescript": "^3.4.3"
+  }
+}

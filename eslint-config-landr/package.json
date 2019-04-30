@@ -1,7 +1,7 @@
 {
     "name": "eslint-config-landr",
     "description": "LANDR's shareable ESLint config",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "main": "index.js",
     "license": "MIT",
     "author": "Robert Cooper <rcooper@landr.com>",
@@ -19,10 +19,11 @@
         "url": "https://github.com/Mixgenius/linting-and-formatting/tree/master/eslint-config-landr"
     },
     "peerDependencies": {
-        "eslint": "^5.15.1",
         "@typescript-eslint/eslint-plugin": "^1.4.2",
         "@typescript-eslint/parser": "^1.4.2",
+        "eslint": "^5.15.1",
         "eslint-config-prettier": "^4.1.0",
+        "eslint-plugin-import": "^2.17.2",
         "eslint-plugin-prettier": "^3.0.1",
         "prettier": "^1.16.4",
         "typescript": "^3.3.3333"

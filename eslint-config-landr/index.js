@@ -4,7 +4,7 @@ module.exports = {
         ecmaVersion: 2018,
         sourceType: 'module',
     },
-    plugins: ['@typescript-eslint'],
+    plugins: ['@typescript-eslint', 'import'],
     extends: [
         'plugin:prettier/recommended', // Enables eslint-plugin-prettier, displays prettier errors as ESLint errors, and extends eslint-config-prettier. Make sure this is always the last element of the extends array so that extended configs don't conflict with prettier.
     ],

@@ -7,13 +7,10 @@ This package exposes the ESLint configuration used for LANDR projects.
 
 ## Installation
 
-Install `eslint-config-landr` and all of it's peer dependencies as dev dependencies of your project.
+Install `eslint-config-landr` and all of it's peer dependencies as dev dependencies of your project. This can be done with the following command:
 
 ```bash
-# Using npm
-npm install eslint eslint-config-landr @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier eslint-plugin-prettier prettier typescript --save-dev
-# Using yarn
-yarn add eslint eslint-config-landr @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier eslint-plugin-prettier prettier typescript --dev
+npx install-peerdeps --dev eslint-config-landr
 ```
 
 Add `landr` as a value to the the `extends` array of your `.eslintrc.js` config file.

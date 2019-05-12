@@ -49,6 +49,16 @@ module.exports = {
         'prefer-template': 'error',
         radix: 'error',
         'space-before-blocks': 'error',
+        'prefer-destructuring': [
+            'error',
+            {
+                array: false,
+                object: true,
+            },
+            {
+                enforceForRenamedProperties: false,
+            },
+        ],
         'import/order': ['error', { 'newlines-between': 'never' }],
         '@typescript-eslint/no-use-before-define': 'error',
         '@typescript-eslint/camelcase': [

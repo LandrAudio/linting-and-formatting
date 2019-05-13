@@ -3,6 +3,9 @@ module.exports = {
     parserOptions: {
         ecmaVersion: 2018,
         sourceType: 'module',
+        ecmaFeatures: {
+            jsx: true,
+        },
     },
     plugins: ['@typescript-eslint', 'import'],
     extends: [
@@ -84,6 +87,7 @@ module.exports = {
     env: {
         browser: true,
         node: true,
+        es6: true,
     },
     overrides: {
         files: ['**/*.{ts,tsx}'],

@@ -89,11 +89,11 @@ module.exports = {
         node: true,
         es6: true,
     },
-    overrides: {
+    overrides: [{
         files: ['**/*.{ts,tsx}'],
         parser: '@typescript-eslint/parser',
         rules: {
             'no-undef': 'off', // this rule returns false-positives with typescript files
         },
-    },
+    }],
 };

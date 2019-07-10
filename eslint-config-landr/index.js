@@ -61,6 +61,11 @@ module.exports = {
             {
                 enforceForRenamedProperties: false,
             },
+            {
+                VariableDeclarator: {
+                    object: true
+                }
+            },
         ],
         'import/order': ['error', { 'newlines-between': 'never' }],
         '@typescript-eslint/no-use-before-define': 'error',

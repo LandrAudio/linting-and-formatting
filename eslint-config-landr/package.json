@@ -21,7 +21,7 @@
     "peerDependencies": {
         "@typescript-eslint/eslint-plugin": "^1.4.2",
         "@typescript-eslint/parser": "^1.4.2",
-        "eslint": "^5.15.1",
+        "eslint": "5.x || 6.x",
         "eslint-config-prettier": "^4.1.0",
         "eslint-plugin-import": "^2.17.2",
         "eslint-plugin-prettier": "^3.0.1",

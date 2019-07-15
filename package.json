@@ -1,17 +1,23 @@
 {
-  "name": "linting-and-formatting",
-  "repository": "git@github.com:Mixgenius/linting-and-formatting.git",
-  "author": "LANDR",
-  "license": "MIT",
-  "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^1.11.0",
-    "@typescript-eslint/parser": "^1.11.0",
-    "eslint": "^6.0.1",
-    "eslint-config-landr": "^0.0.4",
-    "eslint-config-prettier": "^5.1.0",
-    "eslint-plugin-prettier": "^3.1.0",
-    "prettier": "^1.18.2",
-    "prettier-config-landr": "^0.0.3",
-    "typescript": "^3.5.2"
-  }
+    "name": "linting-and-formatting",
+    "repository": "git@github.com:Mixgenius/linting-and-formatting.git",
+    "author": "LANDR",
+    "license": "MIT",
+    "private": true,
+    "workspaces": [
+        "eslint-config-landr",
+        "prettier-config-landr",
+        "stylelint-config-landr"
+    ],
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^1.12.0",
+        "@typescript-eslint/parser": "^1.12.0",
+        "eslint": "^6.0.1",
+        "eslint-config-landr": "^0.0.12",
+        "eslint-config-prettier": "^6.0.0",
+        "eslint-plugin-prettier": "^3.1.0",
+        "prettier": "^1.18.2",
+        "prettier-config-landr": "^0.0.6",
+        "typescript": "^3.5.3"
+    }
 }

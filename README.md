@@ -12,6 +12,17 @@ Monorepo to hold all shareable linting and formatting configurations.
 
 When using both ESLint and Prettier in a project, it's nice to have files automatically have ESLint errors fixed on save as well as have non JavaScript/TypeScript files formatted on save. This section explains how to set that up in an editor.
 
+### Semantic version increment rules
+#### Patch releases (1.0.X): 
+  - Bump dependencies to patch or minor releases
+  - Fixes not impacting the configs or adding new rules
+#### Minor releases (1.X): 
+  - Adding exceptions to rules (ex: disable a default rule)
+  - Changing linting rules (ex: `{ printWidth: 80 }` -> `{ printWidth: 120 }`)
+#### Major releases(X): 
+  - Breaking changes in repo
+  - Bump dependencies to major releases
+
 ### VS Code
 
 Make sure to have the [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) and [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) extensions installed.

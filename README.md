@@ -12,16 +12,16 @@ Monorepo to hold all shareable linting and formatting configurations.
 
 When using both ESLint and Prettier in a project, it's nice to have files automatically have ESLint errors fixed on save as well as have non JavaScript/TypeScript files formatted on save. This section explains how to set that up in an editor.
 
-### Versions Bump
-Patch releases: 
+### Versions Bump 
+#### Patch releases: 
   - Bump dependencies to patch or minor releases
-  - Fixs not impacting the configs or adding new rules
-Minor releases: 
+  - Fixes not impacting the configs or adding new rules
+#### Minor releases: 
   - Adding exceptions to rules (ex: disable a default rule)
-  - Changin Minor rules (Nothing that will reformat code by default)
-Major releases: 
+  - Changing linting rules (ex: `{ printWidth: 80 }` -> `{ printWidth: 120 }`)
+#### Major releases: 
+  - Breaking changes in repo
   - Bump dependencies to major releases
-  - Changing rules that will reformat code by default (ex: `{ printWidth: 80 }` -> `{ printWidth: 120 }`)
 
 ### VS Code
 

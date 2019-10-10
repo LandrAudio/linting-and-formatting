@@ -7,8 +7,9 @@ module.exports = {
             jsx: true,
         },
     },
-    plugins: ['@typescript-eslint', 'import'],
+    plugins: ['@typescript-eslint', 'import', 'react'],
     extends: [
+        'plugin:react/recommended',
         'plugin:prettier/recommended', // Enables eslint-plugin-prettier, displays prettier errors as ESLint errors, and extends eslint-config-prettier. Make sure this is always the last element of the extends array so that extended configs don't conflict with prettier.
     ],
     rules: {

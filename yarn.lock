@@ -800,6 +800,11 @@ escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
+eslint-config-landr@^0.0.12:
+  version "0.0.12"
+  resolved "https://registry.yarnpkg.com/eslint-config-landr/-/eslint-config-landr-0.0.12.tgz#4982ed0263ca4b545e26b4d2313ce849ba4d3f22"
+  integrity sha512-6PiTGoXfbrnpy29bvPS2LmTBkTz3NLXbSaMJv9E8uBnS5j54/LzO+yghq9HBXTj7GOHo7NAoe2GVu11/JhIr+g==
+
 eslint-config-prettier@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-6.0.0.tgz#f429a53bde9fc7660e6353910fd996d6284d3c25"

@@ -25,7 +25,16 @@ module.exports = {
 
 To use a framework specific config, just use `'landr/${framework}'` in the `extends` array. Every framework specific config already extends the `landr` config.
 
+#### Available framework configs
+
+**React**
+
+```bash
+yarn add -D eslint-config-landr eslint-plugin-react
+```
+
 ```js
+// .eslintrc.js
 module.exports = {
   extends: ['landr/react'],
 };

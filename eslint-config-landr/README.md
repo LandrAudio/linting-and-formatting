@@ -13,10 +13,29 @@ Install `eslint-config-landr` and all of it's peer dependencies as dev dependenc
 npx install-peerdeps --dev eslint-config-landr
 ```
 
-Add `landr` as a value to the the `extends` array of your `.eslintrc.js` config file.
+Add `landr` as a value to the `extends` array of your `.eslintrc.js` config file.
 
 ```js
 module.exports = {
   extends: ['landr'],
+};
+```
+
+### Framework specific
+
+To use a framework specific config, just use `'landr/${framework}'` in the `extends` array. Every framework specific config already extends the `landr` config.
+
+#### Available framework configs
+
+**React**
+
+```bash
+yarn add -D eslint-config-landr eslint-plugin-react
+```
+
+```js
+// .eslintrc.js
+module.exports = {
+  extends: ['landr/react'],
 };
 ```

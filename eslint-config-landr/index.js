@@ -8,9 +8,7 @@ module.exports = {
         },
     },
     plugins: ['@typescript-eslint', 'import'],
-    extends: [
-        'plugin:prettier/recommended', // Enables eslint-plugin-prettier, displays prettier errors as ESLint errors, and extends eslint-config-prettier. Make sure this is always the last element of the extends array so that extended configs don't conflict with prettier.
-    ],
+    extends: ['plugin:@typescript-eslint/recommended', 'prettier/@typescript-eslint', 'plugin:prettier/recommended'],
     rules: {
         eqeqeq: 'error',
         'new-cap': [
@@ -89,11 +87,13 @@ module.exports = {
         node: true,
         es6: true,
     },
-    overrides: [{
-        files: ['**/*.{ts,tsx}'],
-        parser: '@typescript-eslint/parser',
-        rules: {
-            'no-undef': 'off', // this rule returns false-positives with typescript files
+    overrides: [
+        {
+            files: ['**/*.{ts,tsx}'],
+            parser: '@typescript-eslint/parser',
+            rules: {
+                'no-undef': 'off', // this rule returns false-positives with typescript files
+            },
         },
-    }],
+    ],
 };

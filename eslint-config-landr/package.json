@@ -1,7 +1,7 @@
 {
     "name": "eslint-config-landr",
     "description": "LANDR's shareable ESLint config",
-    "version": "0.0.13",
+    "version": "0.1.0",
     "main": "index.js",
     "license": "MIT",
     "author": "Robert Cooper <rcooper@landr.com>",
@@ -30,5 +30,8 @@
     },
     "engines": {
         "node": ">= 4"
+    },
+    "optionalDependencies": {
+        "eslint-plugin-react": "^7.16.0"
     }
 }

@@ -1,5 +1,4 @@
 module.exports = {
-    parser: '@typescript-eslint/parser',
     parserOptions: {
         ecmaVersion: 2018,
         sourceType: 'module',
@@ -7,8 +6,8 @@ module.exports = {
             jsx: true,
         },
     },
-    plugins: ['@typescript-eslint', 'import'],
-    extends: ['plugin:@typescript-eslint/recommended', 'prettier/@typescript-eslint', 'plugin:prettier/recommended'],
+    plugins: ['import'],
+    extends: ['eslint:recommended', 'plugin:prettier/recommended'],
     rules: {
         eqeqeq: 'error',
         'new-cap': [
@@ -61,26 +60,6 @@ module.exports = {
             },
         ],
         'import/order': ['error', { 'newlines-between': 'never' }],
-        '@typescript-eslint/no-use-before-define': 'error',
-        '@typescript-eslint/camelcase': [
-            'error',
-            {
-                allow: [
-                    'utm_campaign',
-                    'utm_content',
-                    'utm_medium',
-                    'utm_source',
-                    'utm_term',
-                    'utm_invalid',
-                    'content_name',
-                    'content_category',
-                    'api_plan',
-                ],
-            },
-        ],
-        '@typescript-eslint/class-name-casing': 'error',
-        '@typescript-eslint/no-inferrable-types': 'error',
-        '@typescript-eslint/type-annotation-spacing': 'error',
     },
     env: {
         browser: true,
@@ -91,8 +70,35 @@ module.exports = {
         {
             files: ['**/*.{ts,tsx}'],
             parser: '@typescript-eslint/parser',
+            extends: [
+                'eslint:recommended',
+                'plugin:@typescript-eslint/eslint-recommended',
+                'plugin:@typescript-eslint/recommended',
+                'prettier/@typescript-eslint',
+            ],
+            plugins: ['@typescript-eslint'],
             rules: {
                 'no-undef': 'off', // this rule returns false-positives with typescript files
+                '@typescript-eslint/camelcase': [
+                    'error',
+                    {
+                        allow: [
+                            'utm_campaign',
+                            'utm_content',
+                            'utm_medium',
+                            'utm_source',
+                            'utm_term',
+                            'utm_invalid',
+                            'content_name',
+                            'content_category',
+                            'api_plan',
+                        ],
+                    },
+                ],
+                '@typescript-eslint/class-name-casing': 'error',
+                '@typescript-eslint/no-inferrable-types': 'error',
+                '@typescript-eslint/type-annotation-spacing': 'error',
+                '@typescript-eslint/no-use-before-define': 'error',
             },
         },
     ],

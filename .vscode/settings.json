@@ -18,5 +18,9 @@
   },
   "[typescriptreact]": {
     "editor.formatOnSave": false,
+  },
+  "deepscan.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
   }
 }

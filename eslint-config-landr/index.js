@@ -43,6 +43,7 @@ module.exports = {
         'no-eval': 'error',
         'no-redeclare': 'error',
         'no-fallthrough': 'error',
+        'no-return-await': 'error',
         'no-trailing-spaces': 'error',
         'no-var': 'error',
         'brace-style': 'error',

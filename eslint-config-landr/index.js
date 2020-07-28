@@ -10,6 +10,7 @@ module.exports = {
     extends: ['eslint:recommended', 'plugin:prettier/recommended'],
     rules: {
         eqeqeq: 'error',
+        'array-callback-return': 'error',
         'new-cap': [
             'error',
             {
@@ -100,6 +101,13 @@ module.exports = {
                 '@typescript-eslint/no-inferrable-types': 'error',
                 '@typescript-eslint/type-annotation-spacing': 'error',
                 '@typescript-eslint/no-use-before-define': 'error',
+                '@typescript-eslint/no-unused-vars': [
+                    'error',
+                    {
+                        args: 'none',
+                        ignoreRestSiblings: true,
+                    },
+                ],
             },
         },
     ],

@@ -17,5 +17,8 @@ module.exports = {
                 html: false,
             },
         ],
+        'react/jsx-uses-react': 'error',
+        'react/jsx-uses-vars': 'error',
+        'react-hooks/exhaustive-deps': 'error',
     },
 };

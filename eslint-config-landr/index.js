@@ -10,6 +10,7 @@ module.exports = {
     extends: ['eslint:recommended', 'plugin:prettier/recommended'],
     rules: {
         eqeqeq: 'error',
+        'array-callback-return': 'error',
         'new-cap': [
             'error',
             {
@@ -100,6 +101,15 @@ module.exports = {
                 '@typescript-eslint/no-inferrable-types': 'error',
                 '@typescript-eslint/type-annotation-spacing': 'error',
                 '@typescript-eslint/no-use-before-define': 'error',
+                // you must disable the base rule no-unused-vars as it can report incorrect errors
+                "no-unused-vars": "off",
+                '@typescript-eslint/no-unused-vars': [
+                    'error',
+                    {
+                        args: 'none',
+                        ignoreRestSiblings: true,
+                    },
+                ],
             },
         },
     ],

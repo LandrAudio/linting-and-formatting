@@ -1,5 +1,5 @@
 module.exports = {
-    extends: ['plugin:react/recommended', './index.js'],
+    extends: ['plugin:react/recommended', 'plugin:react-hooks/recommended', './index.js'],
     plugins: ['react'],
 
     settings: {
@@ -17,5 +17,9 @@ module.exports = {
                 html: false,
             },
         ],
+        'react/jsx-uses-react': 'error',
+        'react/jsx-uses-vars': 'error',
+        "react-hooks/rules-of-hooks": "error",
+        'react-hooks/exhaustive-deps': 'error',
     },
 };

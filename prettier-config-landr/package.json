@@ -12,9 +12,9 @@
         "prettier"
     ],
     "devDependencies": {
-        "prettier": "^1.19.1"
+        "prettier": "^2.1.2"
     },
     "peerDependencies": {
-        "prettier": "^1.16.x"
+        "prettier": "^1.19"
     }
 }

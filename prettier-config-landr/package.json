@@ -1,6 +1,6 @@
 {
     "name": "prettier-config-landr",
-    "version": "0.0.7",
+    "version": "0.1.0",
     "description": "LANDR's shareable Prettier config",
     "main": "index.js",
     "repository": "https://github.com/Mixgenius/linting-and-formatting/tree/master/prettier-config-landr",
@@ -15,6 +15,6 @@
         "prettier": "^2.1.2"
     },
     "peerDependencies": {
-        "prettier": "^1.19"
+        "prettier": "^2.x"
     }
 }

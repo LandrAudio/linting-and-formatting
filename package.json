@@ -5,9 +5,7 @@
     "license": "MIT",
     "private": true,
     "workspaces": [
-        "eslint-config-landr",
-        "prettier-config-landr",
-        "stylelint-config-landr"
+        "packages/*"
     ],
     "devDependencies": {
         "@typescript-eslint/eslint-plugin": "^2.20.0",
@@ -16,6 +14,7 @@
         "eslint-config-landr": "^0.3.0",
         "eslint-config-prettier": "^6.10.0",
         "eslint-plugin-prettier": "^3.1.2",
+        "lerna": "^3.22.1",
         "prettier": "^2.1.2",
         "prettier-config-landr": "^0.1.0",
         "typescript": "^3.7.5"

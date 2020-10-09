@@ -19,8 +19,8 @@
         "url": "https://github.com/Mixgenius/linting-and-formatting/tree/master/eslint-config-landr"
     },
     "peerDependencies": {
-        "@typescript-eslint/eslint-plugin": "^1.4.2",
-        "@typescript-eslint/parser": "^1.4.2",
+        "@typescript-eslint/eslint-plugin": "^2.x",
+        "@typescript-eslint/parser": "^2.x",
         "eslint-plugin-react-hooks": "^4.0.8",
         "eslint": "6.x",
         "eslint-config-prettier": "^6.11.0",

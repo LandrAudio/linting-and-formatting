@@ -1,7 +1,7 @@
 {
     "name": "eslint-config-landr",
     "description": "LANDR's shareable ESLint config",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "main": "index.js",
     "license": "MIT",
     "author": "Robert Cooper <rcooper@landr.com>",
@@ -21,11 +21,11 @@
     "peerDependencies": {
         "@typescript-eslint/eslint-plugin": "^1.4.2",
         "@typescript-eslint/parser": "^1.4.2",
-        "eslint-plugin-react-hooks": "^4.0.8",
         "eslint": "5.x || 6.x",
         "eslint-config-prettier": "^6.11.0",
         "eslint-plugin-import": "^2.22.0",
         "eslint-plugin-prettier": "^3.1.0",
+        "eslint-plugin-react-hooks": "^4.0.8",
         "prettier": "^2.x",
         "typescript": "^3.3.3333"
     },

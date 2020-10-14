@@ -26,7 +26,14 @@
     "auto": {
         "plugins": [
             "npm",
-            "all-contributors",
+            [
+                "all-contributors",
+                {
+                    "exclude": [
+                        "dependabot"
+                    ]
+                }
+            ],
             "conventional-commits",
             "jira",
             "released"

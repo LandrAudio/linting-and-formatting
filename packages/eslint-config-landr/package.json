@@ -30,7 +30,7 @@
         "typescript": "^3.3.3333"
     },
     "engines": {
-        "node": ">= 4"
+        "node": ">= 12"
     },
     "optionalDependencies": {
         "eslint-plugin-react": "^7.18.3"

@@ -9,17 +9,6 @@ module.exports = {
     plugins: ['import'],
     extends: ['eslint:recommended', 'plugin:prettier/recommended'],
     rules: {
-        eqeqeq: 'error',
-        'array-callback-return': 'error',
-        'new-cap': [
-            'error',
-            {
-                capIsNewExceptions: [
-                    'Selector', // Imported from testcafe
-                    'WhenUserReady', // Decorator
-                ],
-            },
-        ],
         strict: ['error', 'global'],
         'no-undef': 'error',
         'spaced-comment': [

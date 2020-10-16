@@ -5,12 +5,6 @@ module.exports = {
     trailingComma: 'all',
     overrides: [
         {
-            files: '*.tpl.html',
-            options: {
-                parser: 'angular',
-            },
-        },
-        {
             files: '*.js',
             options: {
                 trailingComma: 'es5',

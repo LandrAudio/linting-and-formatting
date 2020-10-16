@@ -21,11 +21,11 @@
     "peerDependencies": {
         "@typescript-eslint/eslint-plugin": "^2.x",
         "@typescript-eslint/parser": "^2.x",
-        "eslint-plugin-react-hooks": "^4.0.8",
         "eslint": "6.x",
         "eslint-config-prettier": "^6.11.0",
         "eslint-plugin-import": "^2.22.0",
         "eslint-plugin-prettier": "^3.1.0",
+        "eslint-plugin-react-hooks": "^4.0.8",
         "prettier": "^2.x",
         "typescript": "^3.3.3333"
     },

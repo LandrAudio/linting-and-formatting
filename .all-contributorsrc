@@ -1,4 +1,10 @@
 {
+  "projectName": "linting-and-formatting",
+  "projectOwner": "LandrAudio",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "contributorsPerLine": 7,
+  "skipCi": true,
   "files": [
     "README.md"
   ],
@@ -22,7 +28,7 @@
       "contributions": [
         "maintenance"
       ]
-    }
+    },
     {
       "login": "davidmartinezmarin",
       "name": "David Martinez",
@@ -32,11 +38,5 @@
         "maintenance"
       ]
     }
-  ],
-  "contributorsPerLine": 7,
-  "projectName": "linting-and-formatting",
-  "projectOwner": "LandrAudio",
-  "repoType": "github",
-  "repoHost": "https://github.com",
-  "skipCi": true
+  ]
 }

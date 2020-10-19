@@ -1,7 +1,7 @@
 {
     "name": "stylelint-config-landr",
     "version": "0.0.7",
-    "author": "Robert Cooper <rcooper@landr.com>",
+    "author": "Landr <developper@landr.com>",
     "description": "LANDR's shareable Stylelint configuration",
     "repository": {
         "type": "git",

@@ -1,0 +1,42 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "benoitdeziel",
+      "name": "Benoit Deziel",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/537043?v=4",
+      "profile": "http://benoitdeziel.com",
+      "contributions": [
+        "maintenance"
+      ]
+    },
+    {
+      "login": "hjack-landr",
+      "name": "hjack-landr",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/57115379?v=4",
+      "profile": "https://github.com/hjack-landr",
+      "contributions": [
+        "maintenance"
+      ]
+    }
+    {
+      "login": "davidmartinezmarin",
+      "name": "David Martinez",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/954888?v=4",
+      "profile": "https://github.com/davidmartinezmarin",
+      "contributions": [
+        "maintenance"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "linting-and-formatting",
+  "projectOwner": "LandrAudio",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}

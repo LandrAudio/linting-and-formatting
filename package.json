@@ -5,19 +5,41 @@
     "license": "MIT",
     "private": true,
     "workspaces": [
-        "eslint-config-landr",
-        "prettier-config-landr",
-        "stylelint-config-landr"
+        "packages/*"
     ],
     "devDependencies": {
+        "@auto-it/all-contributors": "^9.58.0",
+        "@auto-it/conventional-commits": "^9.58.0",
+        "@auto-it/jira": "^9.58.0",
         "@typescript-eslint/eslint-plugin": "^2.20.0",
         "@typescript-eslint/parser": "^2.20.0",
+        "auto": "^9.58.0",
         "eslint": "^6.8.0",
-        "eslint-config-landr": "^0.1.0",
+        "eslint-config-landr": "^0.4.0",
         "eslint-config-prettier": "^6.10.0",
         "eslint-plugin-prettier": "^3.1.2",
-        "prettier": "^1.19.1",
-        "prettier-config-landr": "^0.0.6",
+        "lerna": "^3.22.1",
+        "prettier": "^2.1.2",
+        "prettier-config-landr": "^0.1.0",
         "typescript": "^3.7.5"
+    },
+    "scripts": {
+        "release": "auto shipit"
+    },
+    "auto": {
+        "plugins": [
+            "npm",
+            [
+                "all-contributors",
+                {
+                    "exclude": [
+                        "dependabot"
+                    ]
+                }
+            ],
+            "conventional-commits",
+            "jira",
+            "released"
+        ]
     }
 }

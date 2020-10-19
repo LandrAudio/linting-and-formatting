@@ -10,7 +10,6 @@
     "devDependencies": {
         "@auto-it/all-contributors": "^9.58.0",
         "@auto-it/conventional-commits": "^9.58.0",
-        "@auto-it/jira": "^9.58.0",
         "@typescript-eslint/eslint-plugin": "^2.20.0",
         "@typescript-eslint/parser": "^2.20.0",
         "auto": "^9.58.0",
@@ -38,7 +37,6 @@
                 }
             ],
             "conventional-commits",
-            "jira",
             "released"
         ]
     }

@@ -35,8 +35,10 @@
       "avatar_url": "https://avatars3.githubusercontent.com/u/954888?v=4",
       "profile": "https://github.com/davidmartinezmarin",
       "contributions": [
-        "maintenance"
+        "maintenance",
+        "code"
       ]
     }
-  ]
+  ],
+  "commitConvention": "none"
 }

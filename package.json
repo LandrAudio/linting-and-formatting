@@ -1,7 +1,7 @@
 {
     "name": "linting-and-formatting",
     "repository": "git@github.com:Mixgenius/linting-and-formatting.git",
-    "author": "Landr <developper@landr.com>",
+    "author": "LANDR <development@landr.com>",
     "license": "MIT",
     "private": true,
     "workspaces": [

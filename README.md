@@ -64,10 +64,6 @@ Next, add the following configuration to the `.vscode/settings.json` file for a 
 
 > Note: If you'd like you can also add these settings to your VS Code user settings so the settings will apply to all your projects.
 
-## Pre-commit linting with Husky & lint-staged
-
-TODO
-
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):

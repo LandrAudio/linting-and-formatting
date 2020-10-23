@@ -9,7 +9,7 @@ module.exports = {
     },
     rules: {
         'react/prop-types': 0,
-        'react/display-name': 0,
+        'react/display-name': 'warning',
         'react/self-closing-comp': [
             'error',
             {
@@ -19,7 +19,7 @@ module.exports = {
         ],
         'react/jsx-uses-react': 'error',
         'react/jsx-uses-vars': 'error',
-        "react-hooks/rules-of-hooks": "error",
+        'react-hooks/rules-of-hooks': 'error',
         'react-hooks/exhaustive-deps': 'error',
     },
 };

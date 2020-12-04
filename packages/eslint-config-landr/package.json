@@ -34,5 +34,5 @@
     },
     "optionalDependencies": {
         "eslint-plugin-react": "^7.21.5"
-    },
+    }
 }

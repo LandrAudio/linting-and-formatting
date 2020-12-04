@@ -12,9 +12,37 @@ Monorepo to hold all shareable linting and formatting configurations.
 
 [stylelint-config-landr](./stylelint-config-landr) - Stylelint configuration for linting CSS and Sass code
 
+
 ## Editor Setup
 
 When using both ESLint and Prettier in a project, it's nice to have files automatically have ESLint errors fixed on save as well as have non JavaScript/TypeScript files formatted on save. This section explains how to set that up in an editor.
+
+### VS Code
+
+The easiest and recommended way of integrating with linters is to let Prettier do the formatting and configure the linter to not deal with formatting rules. You can find instructions on how to configure each linter on the Prettier docs site. You can then use each of the linting extensions as you normally would.
+
+- ESLint: [Extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- Stylelint: [Extension](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
+
+You can enable Auto-Fix on Save for ESLint or Stylelint and still have formatting and quick fixes:
+
+```
+"editor.codeActionsOnSave": {
+    // For ESLint
+    "source.fixAll.eslint": true,
+    // For Stylelint
+    "source.fixAll.stylelint": true
+}
+```
+
+## Releasing
+
+We use [Auto](https://intuit.github.io/auto/) and [Lerna](https://lerna.js.org/) to automatically bump our packages versions based on the [Conventional Commits](https://www.conventionalcommits.org/) convention. 
+
+- A commit starting with `fix:` will do a `PATCH` release
+- A commit starting with `feat:` will do a `MINOR` release
+- A commit starting with `BREAKING CHANGE:` will do a `MAJOR` release
+
 
 ### Semantic version increment rules
 
@@ -32,37 +60,6 @@ When using both ESLint and Prettier in a project, it's nice to have files automa
 
 - Breaking changes in repo
 - Bump dependencies to major releases
-
-### VS Code
-
-Make sure to have the [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) and [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) extensions installed.
-
-Next, add the following configuration to the `.vscode/settings.json` file for a project.
-
-```json
-"eslint.autoFixOnSave": true,
-"eslint.validate": [
-  "javascript",
-  "javascriptreact",
-  {"language": "typescript", "autoFix": true },
-  {"language": "typescriptreact", "autoFix": true }
-],
-"editor.formatOnSave": true,
-"[javascript]": {
-  "editor.formatOnSave": false,
-},
-"[javascriptreact]": {
-  "editor.formatOnSave": false,
-},
-"[typescript]": {
-  "editor.formatOnSave": false,
-},
-"[typescriptreact]": {
-  "editor.formatOnSave": false,
-}
-```
-
-> Note: If you'd like you can also add these settings to your VS Code user settings so the settings will apply to all your projects.
 
 ## Contributors ✨
 

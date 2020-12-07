@@ -62,6 +62,7 @@ module.exports = {
             },
         ],
         'import/order': ['error', { 'newlines-between': 'never' }],
+        'prettier/prettier': 'warn',
     },
     env: {
         browser: true,
@@ -81,29 +82,42 @@ module.exports = {
             plugins: ['@typescript-eslint'],
             rules: {
                 'no-undef': 'off', // this rule returns false-positives with typescript files
-                '@typescript-eslint/camelcase': [
-                    'error',
+                '@typescript-eslint/naming-convention': [
+                    'warn',
                     {
-                        allow: [
-                            'utm_campaign',
-                            'utm_content',
-                            'utm_medium',
-                            'utm_source',
-                            'utm_term',
-                            'utm_invalid',
-                            'content_name',
-                            'content_category',
-                            'api_plan',
-                        ],
+                        selector: 'default',
+                        format: ['camelCase'],
+                    },
+                    {
+                        selector: 'property',
+                        format: ['camelCase', 'UPPER_CASE'],
+                        filter: {
+                            regex:
+                                '^(utm_campaign|utm_content|utm_medium|utm_source|utm_term|utm_invalid|content_name|content_category|api_plan)$',
+                            match: false,
+                        },
+                    },
+                    {
+                        selector: 'variable',
+                        format: ['camelCase', 'PascalCase', 'UPPER_CASE'],
+                        leadingUnderscore: 'allow',
+                    },
+                    {
+                        selector: 'memberLike',
+                        format: ['camelCase', 'UPPER_CASE', 'PascalCase'],
+                        leadingUnderscore: 'allow',
+                    },
+                    {
+                        selector: 'typeLike',
+                        format: ['PascalCase'],
                     },
                 ],
-                '@typescript-eslint/class-name-casing': 'error',
                 '@typescript-eslint/no-inferrable-types': 'error',
                 '@typescript-eslint/type-annotation-spacing': 'error',
                 "no-use-before-define": "off",
                 "@typescript-eslint/no-use-before-define": "off",
                 // you must disable the base rule no-unused-vars as it can report incorrect errors
-                "no-unused-vars": "off",
+                'no-unused-vars': 'off',
                 '@typescript-eslint/no-unused-vars': [
                     'error',
                     {

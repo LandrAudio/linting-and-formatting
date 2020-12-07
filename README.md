@@ -12,9 +12,37 @@ Monorepo to hold all shareable linting and formatting configurations.
 
 [stylelint-config-landr](./stylelint-config-landr) - Stylelint configuration for linting CSS and Sass code
 
+
 ## Editor Setup
 
 When using both ESLint and Prettier in a project, it's nice to have files automatically have ESLint errors fixed on save as well as have non JavaScript/TypeScript files formatted on save. This section explains how to set that up in an editor.
+
+### VS Code
+
+The easiest and recommended way of integrating with linters is to let Prettier do the formatting and configure the linter to not deal with formatting rules. You can find instructions on how to configure each linter on the Prettier docs site. You can then use each of the linting extensions as you normally would.
+
+- ESLint: [Extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- Stylelint: [Extension](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
+
+You can enable Auto-Fix on Save for ESLint or Stylelint and still have formatting and quick fixes:
+
+```
+"editor.codeActionsOnSave": {
+    // For ESLint
+    "source.fixAll.eslint": true,
+    // For Stylelint
+    "source.fixAll.stylelint": true
+}
+```
+
+## Releasing
+
+We use [Auto](https://intuit.github.io/auto/) and [Lerna](https://lerna.js.org/) to automatically bump our packages versions based on the [Conventional Commits](https://www.conventionalcommits.org/) convention. 
+
+- A commit starting with `fix:` will do a `PATCH` release
+- A commit starting with `feat:` will do a `MINOR` release
+- A commit starting with `BREAKING CHANGE:` will do a `MAJOR` release
+
 
 ### Semantic version increment rules
 
@@ -33,37 +61,6 @@ When using both ESLint and Prettier in a project, it's nice to have files automa
 - Breaking changes in repo
 - Bump dependencies to major releases
 
-### VS Code
-
-Make sure to have the [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) and [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) extensions installed.
-
-Next, add the following configuration to the `.vscode/settings.json` file for a project.
-
-```json
-"eslint.autoFixOnSave": true,
-"eslint.validate": [
-  "javascript",
-  "javascriptreact",
-  {"language": "typescript", "autoFix": true },
-  {"language": "typescriptreact", "autoFix": true }
-],
-"editor.formatOnSave": true,
-"[javascript]": {
-  "editor.formatOnSave": false,
-},
-"[javascriptreact]": {
-  "editor.formatOnSave": false,
-},
-"[typescript]": {
-  "editor.formatOnSave": false,
-},
-"[typescriptreact]": {
-  "editor.formatOnSave": false,
-}
-```
-
-> Note: If you'd like you can also add these settings to your VS Code user settings so the settings will apply to all your projects.
-
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
@@ -73,7 +70,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="http://benoitdeziel.com"><img src="https://avatars1.githubusercontent.com/u/537043?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Benoit Deziel</b></sub></a><br /><a href="#maintenance-benoitdeziel" title="Maintenance">🚧</a></td>
+    <td align="center"><a href="http://benoitdeziel.com"><img src="https://avatars1.githubusercontent.com/u/537043?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Benoit Deziel</b></sub></a><br /><a href="#maintenance-benoitdeziel" title="Maintenance">🚧</a> <a href="https://github.com/LandrAudio/linting-and-formatting/commits?author=benoitdeziel" title="Documentation">📖</a> <a href="#infra-benoitdeziel" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/LandrAudio/linting-and-formatting/commits?author=benoitdeziel" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/hjack-landr"><img src="https://avatars2.githubusercontent.com/u/57115379?v=4?s=100" width="100px;" alt=""/><br /><sub><b>hjack-landr</b></sub></a><br /><a href="#maintenance-hjack-landr" title="Maintenance">🚧</a></td>
     <td align="center"><a href="https://github.com/davidmartinezmarin"><img src="https://avatars3.githubusercontent.com/u/954888?v=4?s=100" width="100px;" alt=""/><br /><sub><b>David Martinez</b></sub></a><br /><a href="#maintenance-davidmartinezmarin" title="Maintenance">🚧</a> <a href="https://github.com/LandrAudio/linting-and-formatting/commits?author=davidmartinezmarin" title="Code">💻</a></td>
   </tr>

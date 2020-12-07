@@ -17,7 +17,10 @@
       "avatar_url": "https://avatars1.githubusercontent.com/u/537043?v=4",
       "profile": "http://benoitdeziel.com",
       "contributions": [
-        "maintenance"
+        "maintenance",
+        "doc",
+        "infra",
+        "code"
       ]
     },
     {

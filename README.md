@@ -70,7 +70,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="http://benoitdeziel.com"><img src="https://avatars1.githubusercontent.com/u/537043?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Benoit Deziel</b></sub></a><br /><a href="#maintenance-benoitdeziel" title="Maintenance">🚧</a></td>
+    <td align="center"><a href="http://benoitdeziel.com"><img src="https://avatars1.githubusercontent.com/u/537043?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Benoit Deziel</b></sub></a><br /><a href="#maintenance-benoitdeziel" title="Maintenance">🚧</a> <a href="https://github.com/LandrAudio/linting-and-formatting/commits?author=benoitdeziel" title="Documentation">📖</a> <a href="#infra-benoitdeziel" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/LandrAudio/linting-and-formatting/commits?author=benoitdeziel" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/hjack-landr"><img src="https://avatars2.githubusercontent.com/u/57115379?v=4?s=100" width="100px;" alt=""/><br /><sub><b>hjack-landr</b></sub></a><br /><a href="#maintenance-hjack-landr" title="Maintenance">🚧</a></td>
     <td align="center"><a href="https://github.com/davidmartinezmarin"><img src="https://avatars3.githubusercontent.com/u/954888?v=4?s=100" width="100px;" alt=""/><br /><sub><b>David Martinez</b></sub></a><br /><a href="#maintenance-davidmartinezmarin" title="Maintenance">🚧</a> <a href="https://github.com/LandrAudio/linting-and-formatting/commits?author=davidmartinezmarin" title="Code">💻</a></td>
   </tr>

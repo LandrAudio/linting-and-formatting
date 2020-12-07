@@ -1,48 +1,18 @@
-# v0.2.0 (Mon Dec 07 2020)
-
-#### 🐛 Bug Fix
-
-- chore: update author in package.json [#64](https://github.com/LandrAudio/linting-and-formatting/pull/64) ([@benoitdeziel](https://github.com/benoitdeziel))
-- chore: manually bump versions \[skip ci\] ([@benoitdeziel](https://github.com/benoitdeziel))
-- Update CHANGELOG.md \[skip ci\] ([@benoitdeziel](https://github.com/benoitdeziel))
-- fix: remove old yarn.lock and update main yarn file [#62](https://github.com/LandrAudio/linting-and-formatting/pull/62) ([@benoitdeziel](https://github.com/benoitdeziel))
-- Merge branch 'master' into dependabot/npm_and_yarn/stylelint-config-landr/kind-of-6.0.3 ([@benoitdeziel](https://github.com/benoitdeziel))
-- Merge branch 'master' into dependabot/npm_and_yarn/stylelint-config-landr/mixin-deep-1.3.2 ([@benoitdeziel](https://github.com/benoitdeziel))
-- chore: install lerna and move packages to packages folder [#49](https://github.com/LandrAudio/linting-and-formatting/pull/49) ([@benoitdeziel](https://github.com/benoitdeziel))
-
-#### ⚠️ Pushed to `master`
-
-- Merge branch 'master' of https://github.com/LandrAudio/linting-and-formatting ([@benoitdeziel](https://github.com/benoitdeziel))
-
-#### Authors: 1
-
-- Benoit Deziel ([@benoitdeziel](https://github.com/benoitdeziel))
-
----
-
-# vnull (Mon Oct 19 2020)
-
-#### 🐛 Bug Fix
-
-- fix: remove old yarn.lock and update main yarn file [#62](https://github.com/LandrAudio/linting-and-formatting/pull/62) ([@benoitdeziel](https://github.com/benoitdeziel))
-- Merge branch 'master' into dependabot/npm_and_yarn/stylelint-config-landr/kind-of-6.0.3 ([@benoitdeziel](https://github.com/benoitdeziel))
-- Merge branch 'master' into dependabot/npm_and_yarn/stylelint-config-landr/mixin-deep-1.3.2 ([@benoitdeziel](https://github.com/benoitdeziel))
-- chore: install lerna and move packages to packages folder [#49](https://github.com/LandrAudio/linting-and-formatting/pull/49) ([@benoitdeziel](https://github.com/benoitdeziel))
-
-#### ⚠️ Pushed to `master`
-
-- Merge branch 'master' of https://github.com/LandrAudio/linting-and-formatting ([@benoitdeziel](https://github.com/benoitdeziel))
-
-#### Authors: 1
-
-- Benoit Deziel ([@benoitdeziel](https://github.com/benoitdeziel))
-
----
-
 # Change Log
 
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# [0.2.0](https://github.com/Mixgenius/linting-and-formatting/tree/master/prettier-config-landr/compare/prettier-config-landr@0.1.1...prettier-config-landr@0.2.0) (2020-12-07)
+
+
+### Bug Fixes
+
+* remove old yarn.lock and update main yarn file ([#62](https://github.com/Mixgenius/linting-and-formatting/tree/master/prettier-config-landr/issues/62)) ([3c5b2d4](https://github.com/Mixgenius/linting-and-formatting/tree/master/prettier-config-landr/commit/3c5b2d4b9b4a1364ce27f89420ac13cd033c51f7))
+
+
+
+
 
 ## 0.1.1 (2020-10-14)
 

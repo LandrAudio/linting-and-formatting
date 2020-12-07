@@ -1,6 +1,6 @@
 {
     "name": "stylelint-config-landr",
-    "version": "0.0.7",
+    "version": "0.1.0",
     "author": "LANDR <development@landr.com>",
     "description": "LANDR's shareable Stylelint configuration",
     "repository": {

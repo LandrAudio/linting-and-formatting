@@ -100,7 +100,6 @@ module.exports = {
                 '@typescript-eslint/class-name-casing': 'error',
                 '@typescript-eslint/no-inferrable-types': 'error',
                 '@typescript-eslint/type-annotation-spacing': 'error',
-                '@typescript-eslint/no-use-before-define': 'error',
                 // you must disable the base rule no-unused-vars as it can report incorrect errors
                 "no-unused-vars": "off",
                 '@typescript-eslint/no-unused-vars': [

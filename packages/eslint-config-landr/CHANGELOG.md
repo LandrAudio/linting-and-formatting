@@ -1,25 +1,23 @@
-# v0.6.0 (Tue Dec 08 2020)
-
-#### 🚀 Enhancement
-
-- feat: disable no use before define [#69](https://github.com/LandrAudio/linting-and-formatting/pull/69) ([@RPDeshaies](https://github.com/RPDeshaies))
-- feat: disable no use before define ([@RPDeshaies](https://github.com/RPDeshaies))
-
-#### 🐛 Bug Fix
-
-- Merge branch 'master' into feat/disable-no-use-before-define ([@RPDeshaies](https://github.com/RPDeshaies))
-- fix: no use before define ([@RPDeshaies](https://github.com/RPDeshaies))
-
-#### Authors: 1
-
-- rpdeshaies ([@RPDeshaies](https://github.com/RPDeshaies))
-
----
-
 # Change Log
 
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# [0.6.0](https://github.com/Mixgenius/linting-and-formatting/tree/master/eslint-config-landr/compare/eslint-config-landr@0.5.0...eslint-config-landr@0.6.0) (2020-12-08)
+
+
+### Bug Fixes
+
+* no use before define ([2c29ab2](https://github.com/Mixgenius/linting-and-formatting/tree/master/eslint-config-landr/commit/2c29ab2b0db7981fbd961466276c3282df8c75c4))
+
+
+### Features
+
+* disable no use before define ([e8d6e0b](https://github.com/Mixgenius/linting-and-formatting/tree/master/eslint-config-landr/commit/e8d6e0b16846d5ed08f6475138302d5ccfa65243))
+
+
+
+
 
 # [0.5.0](https://github.com/Mixgenius/linting-and-formatting/tree/master/eslint-config-landr/compare/eslint-config-landr@0.4.0...eslint-config-landr@0.5.0) (2020-12-07)
 

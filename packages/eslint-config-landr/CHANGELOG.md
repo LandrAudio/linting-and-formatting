@@ -1,3 +1,21 @@
+# v0.6.0 (Tue Dec 08 2020)
+
+#### 🚀 Enhancement
+
+- feat: disable no use before define [#69](https://github.com/LandrAudio/linting-and-formatting/pull/69) ([@RPDeshaies](https://github.com/RPDeshaies))
+- feat: disable no use before define ([@RPDeshaies](https://github.com/RPDeshaies))
+
+#### 🐛 Bug Fix
+
+- Merge branch 'master' into feat/disable-no-use-before-define ([@RPDeshaies](https://github.com/RPDeshaies))
+- fix: no use before define ([@RPDeshaies](https://github.com/RPDeshaies))
+
+#### Authors: 1
+
+- rpdeshaies ([@RPDeshaies](https://github.com/RPDeshaies))
+
+---
+
 # Change Log
 
 All notable changes to this project will be documented in this file.

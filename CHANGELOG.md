@@ -1,3 +1,16 @@
+# (Tue Dec 08 2020)
+
+#### 🚀 Enhancement
+
+- `eslint-config-landr@0.6.0`
+  - feat: disable no use before define [#69](https://github.com/LandrAudio/linting-and-formatting/pull/69) ([@RPDeshaies](https://github.com/RPDeshaies))
+
+#### Authors: 1
+
+- rpdeshaies ([@RPDeshaies](https://github.com/RPDeshaies))
+
+---
+
 # (Mon Dec 07 2020)
 
 #### 🚀 Enhancement

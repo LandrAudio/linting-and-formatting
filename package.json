@@ -8,11 +8,11 @@
         "packages/*"
     ],
     "devDependencies": {
-        "@auto-it/all-contributors": "^9.58.0",
-        "@auto-it/conventional-commits": "^9.58.0",
+        "@auto-it/all-contributors": "^10.30.0",
+        "@auto-it/conventional-commits": "^10.30.0",
         "@typescript-eslint/eslint-plugin": "^4.29.0",
         "@typescript-eslint/parser": "^4.29.0",
-        "auto": "^9.58.0",
+        "auto": "^10.30.0",
         "eslint": "^7.32.0",
         "eslint-config-landr": "^0.6.0",
         "eslint-config-prettier": "^8.3.0",

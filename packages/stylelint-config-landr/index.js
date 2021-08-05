@@ -44,8 +44,7 @@ module.exports = {
         'scss/dollar-variable-colon-space-after': 'always',
         'scss/dollar-variable-colon-space-before': 'never',
         'scss/dollar-variable-pattern': '^[_]?[a-z-A-Z]+([a-z0-9-]+[a-z0-9]+)?$',
-        'scss/percent-placeholder-pattern':
-            '^([A-Z]|is-|u-|o-|ng-|&)[a-z](\\w+(-[a-z]\\w+|)){1,2}(--[a-z]\\w+|)$',
+        'scss/percent-placeholder-pattern': '^([A-Z]|is-|u-|o-|ng-|&)[a-z](\\w+(-[a-z]\\w+|)){1,2}(--[a-z]\\w+|)$',
         'scss/selector-no-redundant-nesting-selector': true,
         'selector-class-pattern': [
             '^([A-Z]|is-|u-|o-|ng-|&)[a-z](\\w+(-[a-z]\\w+|)){1,2}(--[a-z]\\w+|)$',

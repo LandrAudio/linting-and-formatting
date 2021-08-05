@@ -1,3 +1,29 @@
+# (Thu Aug 05 2021)
+
+#### 🚀 Enhancement
+
+- `eslint-config-landr@0.7.0`, `stylelint-config-landr@0.2.0`
+  - chore: update deps and config [#82](https://github.com/LandrAudio/linting-and-formatting/pull/82) ([@benoitdeziel](https://github.com/benoitdeziel))
+
+#### 🐛 Bug Fix
+
+- fix: update auto and add slack plugin [#83](https://github.com/LandrAudio/linting-and-formatting/pull/83) ([@benoitdeziel](https://github.com/benoitdeziel))
+
+#### 🔩 Dependency Updates
+
+- chore(deps): bump lodash from 4.17.20 to 4.17.21 [#75](https://github.com/LandrAudio/linting-and-formatting/pull/75) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump y18n from 4.0.0 to 4.0.3 [#74](https://github.com/LandrAudio/linting-and-formatting/pull/74) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump ssri from 6.0.1 to 6.0.2 [#73](https://github.com/LandrAudio/linting-and-formatting/pull/73) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump gitlog from 4.0.3 to 4.0.4 [#72](https://github.com/LandrAudio/linting-and-formatting/pull/72) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump ini from 1.3.5 to 1.3.7 [#70](https://github.com/LandrAudio/linting-and-formatting/pull/70) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 2
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- Benoit Deziel ([@benoitdeziel](https://github.com/benoitdeziel))
+
+---
+
 # (Tue Dec 08 2020)
 
 #### 🚀 Enhancement

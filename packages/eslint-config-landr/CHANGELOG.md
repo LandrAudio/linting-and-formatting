@@ -1,3 +1,15 @@
+# v0.7.0 (Thu Aug 05 2021)
+
+#### 🚀 Enhancement
+
+- chore: update deps and config [#82](https://github.com/LandrAudio/linting-and-formatting/pull/82) ([@benoitdeziel](https://github.com/benoitdeziel))
+
+#### Authors: 1
+
+- Benoit Deziel ([@benoitdeziel](https://github.com/benoitdeziel))
+
+---
+
 # Change Log
 
 All notable changes to this project will be documented in this file.

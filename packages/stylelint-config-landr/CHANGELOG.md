@@ -1,19 +1,15 @@
-# v0.2.0 (Thu Aug 05 2021)
-
-#### 🚀 Enhancement
-
-- chore: update deps and config [#82](https://github.com/LandrAudio/linting-and-formatting/pull/82) ([@benoitdeziel](https://github.com/benoitdeziel))
-
-#### Authors: 1
-
-- Benoit Deziel ([@benoitdeziel](https://github.com/benoitdeziel))
-
----
-
 # Change Log
 
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# [0.2.0](https://github.com/Mixgenius/linting-and-formatting/tree/master/stylelint-config-landr/compare/stylelint-config-landr@0.1.0...stylelint-config-landr@0.2.0) (2021-08-05)
+
+**Note:** Version bump only for package stylelint-config-landr
+
+
+
+
 
 # [0.1.0](https://github.com/Mixgenius/linting-and-formatting/tree/master/stylelint-config-landr/compare/stylelint-config-landr@0.0.6...stylelint-config-landr@0.1.0) (2020-12-07)
 

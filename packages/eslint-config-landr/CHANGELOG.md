@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.7.0](https://github.com/Mixgenius/linting-and-formatting/tree/master/eslint-config-landr/compare/eslint-config-landr@0.6.0...eslint-config-landr@0.7.0) (2021-08-05)
+
+**Note:** Version bump only for package eslint-config-landr
+
+
+
+
+
 # [0.6.0](https://github.com/Mixgenius/linting-and-formatting/tree/master/eslint-config-landr/compare/eslint-config-landr@0.5.0...eslint-config-landr@0.6.0) (2020-12-08)
 
 

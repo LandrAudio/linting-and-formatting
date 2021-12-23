@@ -1,5 +1,3 @@
 module.exports = {
-  extends: [
-      'landr'
-  ],
-}
+    extends: ['landr'],
+};

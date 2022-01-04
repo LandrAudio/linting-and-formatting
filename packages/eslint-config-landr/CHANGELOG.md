@@ -1,25 +1,18 @@
-# v0.8.0 (Tue Jan 04 2022)
-
-#### 🚀 Enhancement
-
-- feat(deps): update dependencies [#89](https://github.com/LandrAudio/linting-and-formatting/pull/89) (haakonjack@Haakons-MacBook-Pro.local [@hjack-landr](https://github.com/hjack-landr))
-- feat: update eslint/prettier/stylelint/typescript (haakonjack@Haakons-MacBook-Pro.local)
-
-#### 🐛 Bug Fix
-
-- Merge remote-tracking branch 'origin/master' into feat/CHFE-1217-update-dependencies (haakonjack@Haakons-MacBook-Pro.local)
-
-#### Authors: 2
-
-- [@hjack-landr](https://github.com/hjack-landr)
-- Haakon Jack (haakonjack@Haakons-MacBook-Pro.local)
-
----
-
 # Change Log
 
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# [0.8.0](https://github.com/Mixgenius/linting-and-formatting/tree/master/eslint-config-landr/compare/eslint-config-landr@0.7.0...eslint-config-landr@0.8.0) (2022-01-04)
+
+
+### Features
+
+* update eslint/prettier/stylelint/typescript ([c6cbf0b](https://github.com/Mixgenius/linting-and-formatting/tree/master/eslint-config-landr/commit/c6cbf0b4714e06f18afddd8a37acc7ad195a7834))
+
+
+
+
 
 # [0.7.0](https://github.com/Mixgenius/linting-and-formatting/tree/master/eslint-config-landr/compare/eslint-config-landr@0.6.0...eslint-config-landr@0.7.0) (2021-08-05)
 

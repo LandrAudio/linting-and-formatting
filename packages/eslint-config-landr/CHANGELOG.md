@@ -1,3 +1,21 @@
+# v0.8.0 (Tue Jan 04 2022)
+
+#### 🚀 Enhancement
+
+- feat(deps): update dependencies [#89](https://github.com/LandrAudio/linting-and-formatting/pull/89) (haakonjack@Haakons-MacBook-Pro.local [@hjack-landr](https://github.com/hjack-landr))
+- feat: update eslint/prettier/stylelint/typescript (haakonjack@Haakons-MacBook-Pro.local)
+
+#### 🐛 Bug Fix
+
+- Merge remote-tracking branch 'origin/master' into feat/CHFE-1217-update-dependencies (haakonjack@Haakons-MacBook-Pro.local)
+
+#### Authors: 2
+
+- [@hjack-landr](https://github.com/hjack-landr)
+- Haakon Jack (haakonjack@Haakons-MacBook-Pro.local)
+
+---
+
 # Change Log
 
 All notable changes to this project will be documented in this file.

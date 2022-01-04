@@ -1,3 +1,17 @@
+# (Tue Jan 04 2022)
+
+#### 🚀 Enhancement
+
+- `eslint-config-landr@0.8.0`, `prettier-config-landr@0.3.0`, `stylelint-config-landr@0.3.0`
+  - feat(deps): update dependencies [#89](https://github.com/LandrAudio/linting-and-formatting/pull/89) (haakonjack@Haakons-MacBook-Pro.local [@hjack-landr](https://github.com/hjack-landr))
+
+#### Authors: 2
+
+- [@hjack-landr](https://github.com/hjack-landr)
+- Haakon Jack (haakonjack@Haakons-MacBook-Pro.local)
+
+---
+
 # (Thu Aug 05 2021)
 
 #### 🚀 Enhancement

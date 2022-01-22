@@ -2878,6 +2878,13 @@ escape-string-regexp@^4.0.0:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
 
+eslint-config-landr@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-landr/-/eslint-config-landr-0.7.0.tgz#641fd45a84731b7dbde0bf28be3e5dec6f47e811"
+  integrity sha512-K33IC1cT7KvNBT5xCzxeKdVC1Psj4d/j+Nt5bZNcDP/ulh+BeDep5B/FufkrA0urQL1j1a42yOJZcR8hesnftg==
+  optionalDependencies:
+    eslint-plugin-react "^7.21.5"
+
 eslint-config-prettier@^8.3.0:
   version "8.3.0"
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.3.0.tgz#f7471b20b6fe8a9a9254cc684454202886a2dd7a"
@@ -2926,7 +2933,7 @@ eslint-plugin-prettier@^4.0.0:
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
-eslint-plugin-react@^7.28.0:
+eslint-plugin-react@^7.21.5, eslint-plugin-react@^7.28.0:
   version "7.28.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.28.0.tgz#8f3ff450677571a659ce76efc6d80b6a525adbdf"
   integrity sha512-IOlFIRHzWfEQQKcAD4iyYDndHwTQiCMcJVJjxempf203jnNLUnW34AXLrV33+nEXoifJE2ZEGmcjKPL8957eSw==
@@ -6056,6 +6063,11 @@ prelude-ls@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
   integrity sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==
+
+prettier-config-landr@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/prettier-config-landr/-/prettier-config-landr-0.2.0.tgz#0f2141f16b3d259def1c8831cebb6c4f56b14633"
+  integrity sha512-eiXUyFrKZQXq+wLZcbkT6DDomNuhUMmh79skKl/dQQkomoa0nfTCABHkKdpO2TGEPOtNGBor/dfmdLiz6ujHNg==
 
 prettier-linter-helpers@^1.0.0:
   version "1.0.0"

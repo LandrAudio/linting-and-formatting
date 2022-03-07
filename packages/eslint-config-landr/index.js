@@ -7,7 +7,7 @@ module.exports = {
         },
     },
     plugins: ['import'],
-    extends: ['eslint:recommended', 'plugin:prettier/recommended'],
+    extends: ['eslint:recommended', 'prettier'],
     rules: {
         eqeqeq: 'error',
         'array-callback-return': 'error',

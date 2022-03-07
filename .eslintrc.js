@@ -1,3 +1,3 @@
 module.exports = {
-    extends: ['landr'],
+    extends: ['./packages/eslint-config-landr'],
 };

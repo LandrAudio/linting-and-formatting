@@ -10,7 +10,7 @@ This package exposes the ESLint configuration used for LANDR projects.
 Install `eslint-config-landr` and all of it's peer dependencies as dev dependencies of your project. This can be done with the following command:
 
 ```bash
-npx install-peerdeps --dev eslint-config-landr
+yarn eslint eslint-config-landr --dev
 ```
 
 Add `landr` as a value to the `extends` array of your `.eslintrc.js` config file.
@@ -30,7 +30,7 @@ To use a framework specific config, just use `'landr/${framework}'` in the `exte
 **React**
 
 ```bash
-yarn add -D eslint-config-landr eslint-plugin-react
+yarn add -D eslint-config-landr
 ```
 
 ```js

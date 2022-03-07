@@ -5,7 +5,7 @@ module.exports = {
         'plugin:jsx-a11y/recommended',
         './index.js',
     ],
-    plugins: ['react'],
+    plugins: ['react', 'jsx-a11y'],
 
     settings: {
         react: {

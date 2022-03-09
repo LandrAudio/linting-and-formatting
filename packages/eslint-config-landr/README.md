@@ -39,3 +39,16 @@ module.exports = {
   extends: ['landr/react'],
 };
 ```
+
+**Test**
+
+```bash
+yarn add -D eslint-config-landr
+```
+
+```js
+// .eslintrc.js
+module.exports = {
+  extends: ['landr/test'],
+};
+```

@@ -29,7 +29,9 @@
       "avatar_url": "https://avatars2.githubusercontent.com/u/57115379?v=4",
       "profile": "https://github.com/hjack-landr",
       "contributions": [
-        "maintenance"
+        "maintenance",
+        "infra",
+        "code"
       ]
     },
     {

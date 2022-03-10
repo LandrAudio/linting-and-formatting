@@ -15,6 +15,6 @@
         "prettier": "^2.5.1"
     },
     "peerDependencies": {
-        "prettier": "^2.x"
+        "prettier": ">=2.5"
     }
 }

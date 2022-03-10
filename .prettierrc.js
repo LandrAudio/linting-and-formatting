@@ -1,1 +1,1 @@
-module.exports = require("prettier-config-landr");
+module.exports = require('./packages/prettier-config-landr');

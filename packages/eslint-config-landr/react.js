@@ -1,6 +1,11 @@
 module.exports = {
-    extends: ['plugin:react/recommended', 'plugin:react-hooks/recommended', './index.js'],
-    plugins: ['react'],
+    extends: [
+        'plugin:react/recommended',
+        'plugin:react-hooks/recommended',
+        'plugin:jsx-a11y/recommended',
+        './index.js',
+    ],
+    plugins: ['react', 'jsx-a11y'],
 
     settings: {
         react: {

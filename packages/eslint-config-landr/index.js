@@ -7,7 +7,7 @@ module.exports = {
         },
     },
     plugins: ['import'],
-    extends: ['eslint:recommended', 'plugin:prettier/recommended'],
+    extends: ['eslint:recommended', 'prettier'],
     rules: {
         eqeqeq: 'error',
         'array-callback-return': 'error',
@@ -62,7 +62,6 @@ module.exports = {
             },
         ],
         'import/order': ['error', { 'newlines-between': 'never' }],
-        'prettier/prettier': 'warn',
     },
     env: {
         browser: true,
@@ -77,7 +76,7 @@ module.exports = {
                 'eslint:recommended',
                 'plugin:@typescript-eslint/eslint-recommended',
                 'plugin:@typescript-eslint/recommended',
-                'plugin:prettier/recommended',
+                'prettier',
             ],
             plugins: ['@typescript-eslint'],
             rules: {

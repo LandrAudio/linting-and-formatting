@@ -1,3 +1,33 @@
+# (Thu Mar 10 2022)
+
+#### 💥 Breaking Change
+
+- `eslint-config-landr@1.0.0`, `prettier-config-landr@1.0.0`, `stylelint-config-landr@1.0.0`
+  - chore: Move peerDependencies to dependencies [#93](https://github.com/LandrAudio/linting-and-formatting/pull/93) ([@benoitdeziel](https://github.com/benoitdeziel))
+
+#### 🚀 Enhancement
+
+- `eslint-config-landr@1.0.0`, `prettier-config-landr@1.0.0`, `stylelint-config-landr@1.0.0`
+  - feat(deps): update dependencies [#89](https://github.com/LandrAudio/linting-and-formatting/pull/89) (haakonjack@Haakons-MacBook-Pro.local [@hjack-landr](https://github.com/hjack-landr))
+
+#### 🐛 Bug Fix
+
+- `eslint-config-landr@1.0.0`, `prettier-config-landr@1.0.0`, `stylelint-config-landr@1.0.0`
+  - build: use token for checkout [#91](https://github.com/LandrAudio/linting-and-formatting/pull/91) ([@benoitdeziel](https://github.com/benoitdeziel))
+
+#### 🔩 Dependency Updates
+
+- chore(deps): bump trim-off-newlines from 1.0.1 to 1.0.3 [#92](https://github.com/LandrAudio/linting-and-formatting/pull/92) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 4
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- [@hjack-landr](https://github.com/hjack-landr)
+- Benoit Deziel ([@benoitdeziel](https://github.com/benoitdeziel))
+- Haakon Jack (haakonjack@Haakons-MacBook-Pro.local)
+
+---
+
 # (Thu Aug 05 2021)
 
 #### 🚀 Enhancement

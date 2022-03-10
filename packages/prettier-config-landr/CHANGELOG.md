@@ -1,3 +1,27 @@
+# v1.0.0 (Thu Mar 10 2022)
+
+#### 💥 Breaking Change
+
+- chore: Move peerDependencies to dependencies [#93](https://github.com/LandrAudio/linting-and-formatting/pull/93) ([@benoitdeziel](https://github.com/benoitdeziel))
+
+#### 🚀 Enhancement
+
+- feat(deps): update dependencies [#89](https://github.com/LandrAudio/linting-and-formatting/pull/89) (haakonjack@Haakons-MacBook-Pro.local [@hjack-landr](https://github.com/hjack-landr))
+- feat: update eslint/prettier/stylelint/typescript (haakonjack@Haakons-MacBook-Pro.local)
+
+#### 🐛 Bug Fix
+
+- build: use token for checkout [#91](https://github.com/LandrAudio/linting-and-formatting/pull/91) ([@benoitdeziel](https://github.com/benoitdeziel))
+- Merge remote-tracking branch 'origin/master' into feat/CHFE-1217-update-dependencies (haakonjack@Haakons-MacBook-Pro.local)
+
+#### Authors: 3
+
+- [@hjack-landr](https://github.com/hjack-landr)
+- Benoit Deziel ([@benoitdeziel](https://github.com/benoitdeziel))
+- Haakon Jack (haakonjack@Haakons-MacBook-Pro.local)
+
+---
+
 # Change Log
 
 All notable changes to this project will be documented in this file.

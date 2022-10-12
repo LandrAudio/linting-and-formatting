@@ -48,6 +48,15 @@
                     ]
                 }
             ]
+        ],
+        "labels": [
+            {
+                "name": "dependencies",
+                "changelogTitle": "🔩 Dependency Updates",
+                "description": "Update one or more dependencies version",
+                "releaseType": "patch",
+                "color": "#8732bc"
+            }
         ]
     },
     "lint-staged": {

@@ -1,3 +1,15 @@
+# v1.0.1 (Wed Oct 12 2022)
+
+#### 🔩 Dependency Updates
+
+- chore: bump dependencies [#96](https://github.com/LandrAudio/linting-and-formatting/pull/96) ([@MPeloquin](https://github.com/MPeloquin))
+
+#### Authors: 1
+
+- Maxime Péloquin ([@MPeloquin](https://github.com/MPeloquin))
+
+---
+
 # Change Log
 
 All notable changes to this project will be documented in this file.

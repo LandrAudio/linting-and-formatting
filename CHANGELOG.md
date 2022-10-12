@@ -1,3 +1,23 @@
+# (Wed Oct 12 2022)
+
+#### 🔩 Dependency Updates
+
+- chore(deps): bump parse-url from 6.0.0 to 6.0.2 [#95](https://github.com/LandrAudio/linting-and-formatting/pull/95) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump minimist from 1.2.5 to 1.2.6 [#94](https://github.com/LandrAudio/linting-and-formatting/pull/94) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- `eslint-config-landr@1.0.1`
+  - chore: bump dependencies [#96](https://github.com/LandrAudio/linting-and-formatting/pull/96) ([@MPeloquin](https://github.com/MPeloquin))
+
+#### 🐛 Bug Fix
+
+- feat(auto): update auto dependencies label [#97](https://github.com/LandrAudio/linting-and-formatting/pull/97) ([@MPeloquin](https://github.com/MPeloquin))
+
+#### Authors: 2
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- Maxime Péloquin ([@MPeloquin](https://github.com/MPeloquin))
+
+---
+
 # (Thu Mar 10 2022)
 
 #### 💥 Breaking Change

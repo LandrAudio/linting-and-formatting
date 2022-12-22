@@ -1,3 +1,15 @@
+# v1.1.0 (Thu Dec 22 2022)
+
+#### 🚀 Enhancement
+
+- feat(lint): add pattern for typescript paths to eslint import order [#99](https://github.com/LandrAudio/linting-and-formatting/pull/99) ([@MPeloquin](https://github.com/MPeloquin))
+
+#### Authors: 1
+
+- Maxime Péloquin ([@MPeloquin](https://github.com/MPeloquin))
+
+---
+
 # Change Log
 
 All notable changes to this project will be documented in this file.

@@ -1,3 +1,21 @@
+# (Thu Dec 22 2022)
+
+#### 🚀 Enhancement
+
+- `eslint-config-landr@1.1.0`
+  - feat(lint): add pattern for typescript paths to eslint import order [#99](https://github.com/LandrAudio/linting-and-formatting/pull/99) ([@MPeloquin](https://github.com/MPeloquin))
+
+#### 🔩 Dependency Updates
+
+- chore(deps): bump decode-uri-component from 0.2.0 to 0.2.2 [#98](https://github.com/LandrAudio/linting-and-formatting/pull/98) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 2
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- Maxime Péloquin ([@MPeloquin](https://github.com/MPeloquin))
+
+---
+
 # (Wed Oct 12 2022)
 
 #### 🔩 Dependency Updates

@@ -61,7 +61,19 @@ module.exports = {
                 enforceForRenamedProperties: false,
             },
         ],
-        'import/order': ['error', { 'newlines-between': 'never' }],
+        'import/order': [
+            'error',
+            {
+                'newlines-between': 'never',
+                pathGroups: [
+                    {
+                        pattern: '@/**',
+                        group: 'external',
+                        position: 'after',
+                    },
+                ],
+            },
+        ],
     },
     env: {
         browser: true,

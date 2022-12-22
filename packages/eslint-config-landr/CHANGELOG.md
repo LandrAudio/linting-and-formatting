@@ -1,19 +1,18 @@
-# v1.1.0 (Thu Dec 22 2022)
-
-#### 🚀 Enhancement
-
-- feat(lint): add pattern for typescript paths to eslint import order [#99](https://github.com/LandrAudio/linting-and-formatting/pull/99) ([@MPeloquin](https://github.com/MPeloquin))
-
-#### Authors: 1
-
-- Maxime Péloquin ([@MPeloquin](https://github.com/MPeloquin))
-
----
-
 # Change Log
 
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# [1.1.0](https://github.com/Mixgenius/linting-and-formatting/compare/eslint-config-landr@1.0.1...eslint-config-landr@1.1.0) (2022-12-22)
+
+
+### Features
+
+* **lint:** add pattern for typescript paths to eslint import order ([#99](https://github.com/Mixgenius/linting-and-formatting/issues/99)) ([a976534](https://github.com/Mixgenius/linting-and-formatting/commit/a9765346d84bf7ce63f3968121a0344942c93ff4))
+
+
+
+
 
 ## [1.0.1](https://github.com/Mixgenius/linting-and-formatting/compare/eslint-config-landr@1.0.0...eslint-config-landr@1.0.1) (2022-10-12)
 

@@ -16,7 +16,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/Mixgenius/linting-and-formatting/tree/master/eslint-config-landr"
+        "url": "https://github.com/LandrAudio/linting-and-formatting/tree/master/packages/eslint-config-landr"
     },
     "dependencies": {
         "@typescript-eslint/eslint-plugin": "^5.39.0",

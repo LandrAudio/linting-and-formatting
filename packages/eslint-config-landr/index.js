@@ -22,16 +22,7 @@ module.exports = {
         ],
         strict: ['error', 'global'],
         'no-undef': 'error',
-        'spaced-comment': [
-            'error',
-            'always',
-            {
-                block: {
-                    exceptions: ['*'],
-                    balanced: true,
-                },
-            },
-        ],
+        'spaced-comment': ['error', 'always', { markers: ['/'] }],
         curly: 'error',
         'eol-last': 'error',
         'guard-for-in': 'error',

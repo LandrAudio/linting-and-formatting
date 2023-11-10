@@ -20,6 +20,14 @@ jobs:
         with:
           node-version: 16.x
 
+      - name: Cache node modules
+        uses: actions/cache@v3
+        with:
+          path: node_modules
+          key: yarn-deps-${{ hashFiles('yarn.lock') }}
+          restore-keys: |
+            yarn-deps-${{ hashFiles('yarn.lock') }}
+
       - name: Create Release
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}

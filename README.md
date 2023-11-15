@@ -1,7 +1,7 @@
 # Linting & Formatting
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Monorepo to hold all shareable linting and formatting configurations.
@@ -75,6 +75,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/davidmartinezmarin"><img src="https://avatars3.githubusercontent.com/u/954888?v=4?s=100" width="100px;" alt=""/><br /><sub><b>David Martinez</b></sub></a><br /><a href="#maintenance-davidmartinezmarin" title="Maintenance">🚧</a> <a href="https://github.com/LandrAudio/linting-and-formatting/commits?author=davidmartinezmarin" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/RPDeshaies"><img src="https://avatars0.githubusercontent.com/u/6224111?v=4?s=100" width="100px;" alt=""/><br /><sub><b>rpdeshaies</b></sub></a><br /><a href="https://github.com/LandrAudio/linting-and-formatting/commits?author=RPDeshaies" title="Documentation">📖</a> <a href="#infra-RPDeshaies" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/LandrAudio/linting-and-formatting/commits?author=RPDeshaies" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/MPeloquin"><img src="https://avatars.githubusercontent.com/u/755469?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Maxime Péloquin</b></sub></a><br /><a href="https://github.com/LandrAudio/linting-and-formatting/commits?author=MPeloquin" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/ardeois"><img src="https://avatars.githubusercontent.com/u/1867939?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Corentin Ardeois</b></sub></a><br /><a href="https://github.com/LandrAudio/linting-and-formatting/commits?author=ardeois" title="Documentation">📖</a> <a href="https://github.com/LandrAudio/linting-and-formatting/commits?author=ardeois" title="Code">💻</a></td>
   </tr>
 </table>
 

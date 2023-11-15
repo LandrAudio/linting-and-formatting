@@ -1,3 +1,16 @@
+# v1.2.0 (Wed Nov 15 2023)
+
+#### 🚀 Enhancement
+
+- feat: add eslint-plugin-prettier [#108](https://github.com/LandrAudio/linting-and-formatting/pull/108) ([@ardeois](https://github.com/ardeois))
+- feat: add eslint-plugin-prettier ([@ardeois](https://github.com/ardeois))
+
+#### Authors: 1
+
+- Corentin Ardeois ([@ardeois](https://github.com/ardeois))
+
+---
+
 # Change Log
 
 All notable changes to this project will be documented in this file.

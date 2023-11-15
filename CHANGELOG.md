@@ -1,3 +1,23 @@
+# (Wed Nov 15 2023)
+
+#### 🚀 Enhancement
+
+- `eslint-config-landr@1.2.0`
+  - feat: add eslint-plugin-prettier [#108](https://github.com/LandrAudio/linting-and-formatting/pull/108) ([@ardeois](https://github.com/ardeois))
+
+#### 🔩 Dependency Updates
+
+- chore(deps): bump word-wrap from 1.2.3 to 1.2.4 [#104](https://github.com/LandrAudio/linting-and-formatting/pull/104) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump http-cache-semantics from 4.1.0 to 4.1.1 [#101](https://github.com/LandrAudio/linting-and-formatting/pull/101) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump json5 from 1.0.1 to 1.0.2 [#100](https://github.com/LandrAudio/linting-and-formatting/pull/100) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 2
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- Corentin Ardeois ([@ardeois](https://github.com/ardeois))
+
+---
+
 # (Thu Dec 22 2022)
 
 #### 🚀 Enhancement

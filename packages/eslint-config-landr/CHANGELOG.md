@@ -1,20 +1,18 @@
-# v1.2.0 (Wed Nov 15 2023)
-
-#### 🚀 Enhancement
-
-- feat: add eslint-plugin-prettier [#108](https://github.com/LandrAudio/linting-and-formatting/pull/108) ([@ardeois](https://github.com/ardeois))
-- feat: add eslint-plugin-prettier ([@ardeois](https://github.com/ardeois))
-
-#### Authors: 1
-
-- Corentin Ardeois ([@ardeois](https://github.com/ardeois))
-
----
-
 # Change Log
 
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# [1.2.0](https://github.com/Mixgenius/linting-and-formatting/compare/eslint-config-landr@1.1.0...eslint-config-landr@1.2.0) (2023-11-15)
+
+
+### Features
+
+* add eslint-plugin-prettier ([35bdcc8](https://github.com/Mixgenius/linting-and-formatting/commit/35bdcc82510f447721e98de3772b0fa4c5db59e4))
+
+
+
+
 
 # [1.1.0](https://github.com/Mixgenius/linting-and-formatting/compare/eslint-config-landr@1.0.1...eslint-config-landr@1.1.0) (2022-12-22)
 

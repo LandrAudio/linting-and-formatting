@@ -6,7 +6,7 @@ module.exports = {
             jsx: true,
         },
     },
-    plugins: ['import'],
+    plugins: ['import', 'prettier'],
     extends: ['eslint:recommended', 'prettier'],
     rules: {
         eqeqeq: 'error',
@@ -74,6 +74,7 @@ module.exports = {
                 ],
             },
         ],
+        'prettier/prettier': 'error',
     },
     env: {
         browser: true,

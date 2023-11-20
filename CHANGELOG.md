@@ -1,3 +1,17 @@
+# (Mon Nov 20 2023)
+
+#### 🚀 Enhancement
+
+- `eslint-config-landr@1.3.0`
+  - feat: add lingui rules [#107](https://github.com/LandrAudio/linting-and-formatting/pull/107) ([@MPeloquin](https://github.com/MPeloquin) [@vbeausoleil](https://github.com/vbeausoleil))
+
+#### Authors: 2
+
+- [@vbeausoleil](https://github.com/vbeausoleil)
+- Maxime Péloquin ([@MPeloquin](https://github.com/MPeloquin))
+
+---
+
 # (Wed Nov 15 2023)
 
 #### 🚀 Enhancement

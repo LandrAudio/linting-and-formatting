@@ -1,3 +1,16 @@
+# v1.3.0 (Mon Nov 20 2023)
+
+#### 🚀 Enhancement
+
+- feat: add lingui rules [#107](https://github.com/LandrAudio/linting-and-formatting/pull/107) ([@MPeloquin](https://github.com/MPeloquin) [@vbeausoleil](https://github.com/vbeausoleil))
+
+#### Authors: 2
+
+- [@vbeausoleil](https://github.com/vbeausoleil)
+- Maxime Péloquin ([@MPeloquin](https://github.com/MPeloquin))
+
+---
+
 # Change Log
 
 All notable changes to this project will be documented in this file.

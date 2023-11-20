@@ -1,20 +1,18 @@
-# v1.3.0 (Mon Nov 20 2023)
-
-#### 🚀 Enhancement
-
-- feat: add lingui rules [#107](https://github.com/LandrAudio/linting-and-formatting/pull/107) ([@MPeloquin](https://github.com/MPeloquin) [@vbeausoleil](https://github.com/vbeausoleil))
-
-#### Authors: 2
-
-- [@vbeausoleil](https://github.com/vbeausoleil)
-- Maxime Péloquin ([@MPeloquin](https://github.com/MPeloquin))
-
----
-
 # Change Log
 
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# [1.3.0](https://github.com/LandrAudio/linting-and-formatting/compare/eslint-config-landr@1.2.0...eslint-config-landr@1.3.0) (2023-11-20)
+
+
+### Features
+
+* add lingui rules ([#107](https://github.com/LandrAudio/linting-and-formatting/issues/107)) ([05ecbc6](https://github.com/LandrAudio/linting-and-formatting/commit/05ecbc633cd43b740e8ca092dd23a4667c39c198))
+
+
+
+
 
 # [1.2.0](https://github.com/Mixgenius/linting-and-formatting/compare/eslint-config-landr@1.1.0...eslint-config-landr@1.2.0) (2023-11-15)
 

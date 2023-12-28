@@ -2668,10 +2668,10 @@ eslint-plugin-jsx-a11y@6.6.1:
     minimatch "^3.1.2"
     semver "^6.3.0"
 
-eslint-plugin-lingui@0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-lingui/-/eslint-plugin-lingui-0.2.0.tgz#4fd3355e964544f5d02fce0bea67187bf2f3ac3c"
-  integrity sha512-o63ySrDZlsujAaa3ybiFAjhkE1LHaKw5Z5GztiKHu1R+40tVOShy1XKvM+Q+vBykRXV9UrxE1oR79pUOSrsLVA==
+eslint-plugin-lingui@0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-lingui/-/eslint-plugin-lingui-0.2.2.tgz#22909b83da856832ec65b789f05b0455922c1a4e"
+  integrity sha512-orWu6o/IkCckLD0owLt+8fKy6SsIqIR9kz2L36KbCuAIfWg3dLRWC+XvuqQWEgJ4raRt+eoomTMunUJiBeogDQ==
   dependencies:
     "@typescript-eslint/utils" "^5.61.0"
 

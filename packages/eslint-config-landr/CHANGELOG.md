@@ -1,3 +1,15 @@
+# v1.4.0 (Wed Jan 03 2024)
+
+#### 🚀 Enhancement
+
+- fix(lingui): move lingui to dependecies [#114](https://github.com/LandrAudio/linting-and-formatting/pull/114) ([@MPeloquin](https://github.com/MPeloquin))
+
+#### Authors: 1
+
+- Maxime Péloquin ([@MPeloquin](https://github.com/MPeloquin))
+
+---
+
 # Change Log
 
 All notable changes to this project will be documented in this file.

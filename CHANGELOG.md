@@ -1,3 +1,24 @@
+# (Wed Jan 03 2024)
+
+#### 🚀 Enhancement
+
+- `eslint-config-landr@1.4.0`
+  - fix(lingui): move lingui to dependecies [#114](https://github.com/LandrAudio/linting-and-formatting/pull/114) ([@MPeloquin](https://github.com/MPeloquin))
+
+#### 🔩 Dependency Updates
+
+- chore(deps): bump actions/checkout from 3 to 4 [#110](https://github.com/LandrAudio/linting-and-formatting/pull/110) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump actions/setup-node from 1 to 4 [#111](https://github.com/LandrAudio/linting-and-formatting/pull/111) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(ops): Enable Dependabot for Github Actions [#109](https://github.com/LandrAudio/linting-and-formatting/pull/109) ([@Ronan-Landr](https://github.com/Ronan-Landr))
+
+#### Authors: 3
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- Maxime Péloquin ([@MPeloquin](https://github.com/MPeloquin))
+- Ronan ([@Ronan-Landr](https://github.com/Ronan-Landr))
+
+---
+
 # (Mon Nov 20 2023)
 
 #### 🚀 Enhancement

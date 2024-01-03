@@ -1,19 +1,18 @@
-# v1.4.0 (Wed Jan 03 2024)
-
-#### 🚀 Enhancement
-
-- fix(lingui): move lingui to dependecies [#114](https://github.com/LandrAudio/linting-and-formatting/pull/114) ([@MPeloquin](https://github.com/MPeloquin))
-
-#### Authors: 1
-
-- Maxime Péloquin ([@MPeloquin](https://github.com/MPeloquin))
-
----
-
 # Change Log
 
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# [1.4.0](https://github.com/LandrAudio/linting-and-formatting/compare/eslint-config-landr@1.3.0...eslint-config-landr@1.4.0) (2024-01-03)
+
+
+### Bug Fixes
+
+* **lingui:** move lingui to dependecies ([#114](https://github.com/LandrAudio/linting-and-formatting/issues/114)) ([f0cab5b](https://github.com/LandrAudio/linting-and-formatting/commit/f0cab5b7db27f8ef378798b4583e143fdd97f8fc))
+
+
+
+
 
 # [1.3.0](https://github.com/LandrAudio/linting-and-formatting/compare/eslint-config-landr@1.2.0...eslint-config-landr@1.3.0) (2023-11-20)
 

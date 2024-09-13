@@ -115,7 +115,6 @@ module.exports = {
                     },
                 ],
                 '@typescript-eslint/no-inferrable-types': 'error',
-                '@typescript-eslint/type-annotation-spacing': 'error',
                 'no-use-before-define': 'off',
                 '@typescript-eslint/no-use-before-define': 'off',
                 // you must disable the base rule no-unused-vars as it can report incorrect errors

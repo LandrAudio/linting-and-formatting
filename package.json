@@ -11,7 +11,7 @@
         "@auto-it/all-contributors": "^10.34.1",
         "@auto-it/conventional-commits": "^10.34.1",
         "@auto-it/slack": "^10.34.1",
-        "auto": "^10.34.1",
+        "auto": "~11.2.1",
         "eslint": "~8.57.0",
         "husky": "^7.0.4",
         "lerna": "^4.0.0",

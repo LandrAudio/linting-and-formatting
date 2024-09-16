@@ -114,8 +114,9 @@ module.exports = {
                         format: ['PascalCase'],
                     },
                 ],
+                '@typescript-eslint/no-explicit-any': 'warn',
                 '@typescript-eslint/no-inferrable-types': 'error',
-                '@typescript-eslint/type-annotation-spacing': 'error',
+                '@typescript-eslint/no-unused-expressions': ['error', { allowTernary: true, allowShortCircuit: true }],
                 'no-use-before-define': 'off',
                 '@typescript-eslint/no-use-before-define': 'off',
                 // you must disable the base rule no-unused-vars as it can report incorrect errors

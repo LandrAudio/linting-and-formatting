@@ -1,19 +1,15 @@
-# v1.4.1 (Mon Sep 16 2024)
-
-#### 🔩 Dependency Updates
-
-- BREAKING CHANGE: update dependencies [#120](https://github.com/LandrAudio/linting-and-formatting/pull/120) ([@MPeloquin](https://github.com/MPeloquin))
-
-#### Authors: 1
-
-- Maxime Péloquin ([@MPeloquin](https://github.com/MPeloquin))
-
----
-
 # Change Log
 
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+## [1.4.1](https://github.com/LandrAudio/linting-and-formatting/compare/eslint-config-landr@1.4.0...eslint-config-landr@1.4.1) (2024-09-16)
+
+**Note:** Version bump only for package eslint-config-landr
+
+
+
+
 
 # [1.4.0](https://github.com/LandrAudio/linting-and-formatting/compare/eslint-config-landr@1.3.0...eslint-config-landr@1.4.0) (2024-01-03)
 

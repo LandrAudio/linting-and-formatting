@@ -1,3 +1,18 @@
+# (Mon Sep 16 2024)
+
+#### 🔩 Dependency Updates
+
+- chore(deps): bump actions/cache from 3 to 4 [#115](https://github.com/LandrAudio/linting-and-formatting/pull/115) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- `eslint-config-landr@1.4.1`, `prettier-config-landr@1.0.1`
+  - BREAKING CHANGE: update dependencies [#120](https://github.com/LandrAudio/linting-and-formatting/pull/120) ([@MPeloquin](https://github.com/MPeloquin))
+
+#### Authors: 2
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- Maxime Péloquin ([@MPeloquin](https://github.com/MPeloquin))
+
+---
+
 # (Wed Jan 03 2024)
 
 #### 🚀 Enhancement

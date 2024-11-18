@@ -1,21 +1,19 @@
-# v1.5.0 (Mon Nov 18 2024)
-
-#### 🚀 Enhancement
-
-- feat: Add React Google Translate Plugin for ES Lint [#123](https://github.com/LandrAudio/linting-and-formatting/pull/123) ([@szum](https://github.com/szum))
-- feat(distro): use error instead of warn ([@szum](https://github.com/szum))
-- feat: add react google translate plugin ([@szum](https://github.com/szum))
-
-#### Authors: 1
-
-- Lukas Switlicki ([@szum](https://github.com/szum))
-
----
-
 # Change Log
 
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# [1.5.0](https://github.com/LandrAudio/linting-and-formatting/compare/eslint-config-landr@1.4.1...eslint-config-landr@1.5.0) (2024-11-18)
+
+
+### Features
+
+* add react google translate plugin ([b840825](https://github.com/LandrAudio/linting-and-formatting/commit/b840825fba3e93fd97ef1a3eff35297a749435af))
+* **distro:** use error instead of warn ([b43c1c5](https://github.com/LandrAudio/linting-and-formatting/commit/b43c1c519920b7951eb79f169eb614144c7874c0))
+
+
+
+
 
 ## [1.4.1](https://github.com/LandrAudio/linting-and-formatting/compare/eslint-config-landr@1.4.0...eslint-config-landr@1.4.1) (2024-09-16)
 

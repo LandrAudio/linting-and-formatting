@@ -1,3 +1,17 @@
+# v1.5.0 (Mon Nov 18 2024)
+
+#### 🚀 Enhancement
+
+- feat: Add React Google Translate Plugin for ES Lint [#123](https://github.com/LandrAudio/linting-and-formatting/pull/123) ([@szum](https://github.com/szum))
+- feat(distro): use error instead of warn ([@szum](https://github.com/szum))
+- feat: add react google translate plugin ([@szum](https://github.com/szum))
+
+#### Authors: 1
+
+- Lukas Switlicki ([@szum](https://github.com/szum))
+
+---
+
 # Change Log
 
 All notable changes to this project will be documented in this file.

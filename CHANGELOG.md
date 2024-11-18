@@ -1,3 +1,16 @@
+# (Mon Nov 18 2024)
+
+#### 🚀 Enhancement
+
+- `eslint-config-landr@1.5.0`
+  - feat: Add React Google Translate Plugin for ES Lint [#123](https://github.com/LandrAudio/linting-and-formatting/pull/123) ([@szum](https://github.com/szum))
+
+#### Authors: 1
+
+- Lukas Switlicki ([@szum](https://github.com/szum))
+
+---
+
 # (Mon Sep 16 2024)
 
 #### 🔩 Dependency Updates

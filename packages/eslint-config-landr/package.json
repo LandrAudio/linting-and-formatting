@@ -28,6 +28,7 @@
         "eslint-plugin-lingui": "~0.3.0",
         "eslint-plugin-prettier": "~5.2.1",
         "eslint-plugin-react": "~7.36.1",
+        "eslint-plugin-react-google-translate": "^0.0.114",
         "eslint-plugin-react-hooks": "~4.6.2",
         "eslint-plugin-testing-library": "~6.3.0"
     },

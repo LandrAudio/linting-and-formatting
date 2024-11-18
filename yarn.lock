@@ -3017,6 +3017,13 @@ eslint-plugin-prettier@~5.2.1:
     prettier-linter-helpers "^1.0.0"
     synckit "^0.9.1"
 
+eslint-plugin-react-google-translate@^0.0.114:
+  version "0.0.114"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react-google-translate/-/eslint-plugin-react-google-translate-0.0.114.tgz#4a4b6349b046e43e017c55c6a9ea8abbfca0a91c"
+  integrity sha512-ixV5l+ejPj3OdvlqSii4hnj42jAXy7EiMS65DvNQ40T5TkqD8RuSsYiIODTYDyoD3L3knLzF2LdTOQiqawMTGQ==
+  dependencies:
+    requireindex "^1.2.0"
+
 eslint-plugin-react-hooks@~4.6.2:
   version "4.6.2"
   resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.6.2.tgz#c829eb06c0e6f484b3fbb85a97e57784f328c596"
@@ -6136,6 +6143,11 @@ requireg@^0.2.2:
     nested-error-stacks "~2.0.1"
     rc "~1.2.7"
     resolve "~1.7.1"
+
+requireindex@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/requireindex/-/requireindex-1.2.0.tgz#3463cdb22ee151902635aa6c9535d4de9c2ef1ef"
+  integrity sha512-L9jEkOi3ASd9PYit2cwRfyppc9NoABujTP8/5gFcbERmo5jUoAKovIC3fsF17pkTnGsrByysqX+Kxd2OTNI1ww==
 
 resolve-cwd@^3.0.0:
   version "3.0.0"

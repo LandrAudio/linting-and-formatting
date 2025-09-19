@@ -1,3 +1,27 @@
+# (Fri Sep 19 2025)
+
+#### 🚀 Enhancement
+
+- `eslint-config-landr@1.8.0`
+  - feat: Add React Google Translate Plugin for ES Lint [#123](https://github.com/LandrAudio/linting-and-formatting/pull/123) ([@szum](https://github.com/szum))
+
+#### 🔩 Dependency Updates
+
+- `eslint-config-landr@1.8.0`, `prettier-config-landr@1.3.0`
+  - fix: build master issue - take 3 [#129](https://github.com/LandrAudio/linting-and-formatting/pull/129) ([@ardeois](https://github.com/ardeois))
+  - fix: build issues on master [#128](https://github.com/LandrAudio/linting-and-formatting/pull/128) ([@ardeois](https://github.com/ardeois))
+- `eslint-config-landr@1.8.0`
+  - fix(build): manually bump eslint-config-landr [#127](https://github.com/LandrAudio/linting-and-formatting/pull/127) ([@ardeois](https://github.com/ardeois))
+- `prettier-config-landr@1.3.0`
+  - fix(prettier): support cjs and mts files [#126](https://github.com/LandrAudio/linting-and-formatting/pull/126) ([@ardeois](https://github.com/ardeois))
+
+#### Authors: 2
+
+- Corentin Ardeois ([@ardeois](https://github.com/ardeois))
+- Lukas Switlicki ([@szum](https://github.com/szum))
+
+---
+
 # (Mon Sep 16 2024)
 
 #### 🔩 Dependency Updates

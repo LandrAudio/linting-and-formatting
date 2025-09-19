@@ -1,3 +1,18 @@
+# v1.3.0 (Fri Sep 19 2025)
+
+#### 🔩 Dependency Updates
+
+- fix: build master issue - take 3 [#129](https://github.com/LandrAudio/linting-and-formatting/pull/129) ([@ardeois](https://github.com/ardeois))
+- fix: build issues on master [#128](https://github.com/LandrAudio/linting-and-formatting/pull/128) ([@ardeois](https://github.com/ardeois))
+- fix(prettier): support cjs and mts files [#126](https://github.com/LandrAudio/linting-and-formatting/pull/126) ([@ardeois](https://github.com/ardeois))
+- fix(prettier): support cjs and mts files ([@ardeois](https://github.com/ardeois))
+
+#### Authors: 1
+
+- Corentin Ardeois ([@ardeois](https://github.com/ardeois))
+
+---
+
 # Change Log
 
 All notable changes to this project will be documented in this file.

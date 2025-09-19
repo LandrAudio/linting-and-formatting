@@ -1,29 +1,26 @@
-# v1.8.0 (Fri Sep 19 2025)
-
-#### 🚀 Enhancement
-
-- feat: Add React Google Translate Plugin for ES Lint [#123](https://github.com/LandrAudio/linting-and-formatting/pull/123) ([@szum](https://github.com/szum))
-- feat(distro): use error instead of warn ([@szum](https://github.com/szum))
-- feat: add react google translate plugin ([@szum](https://github.com/szum))
-
-#### 🔩 Dependency Updates
-
-- fix: build master issue - take 3 [#129](https://github.com/LandrAudio/linting-and-formatting/pull/129) ([@ardeois](https://github.com/ardeois))
-- fix: build issues on master [#128](https://github.com/LandrAudio/linting-and-formatting/pull/128) ([@ardeois](https://github.com/ardeois))
-- fix(build): manually bump eslint-config-landr [#127](https://github.com/LandrAudio/linting-and-formatting/pull/127) ([@ardeois](https://github.com/ardeois))
-- fix: manually bump eslint-config-landr ([@ardeois](https://github.com/ardeois))
-
-#### Authors: 2
-
-- Corentin Ardeois ([@ardeois](https://github.com/ardeois))
-- Lukas Switlicki ([@szum](https://github.com/szum))
-
----
-
 # Change Log
 
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# [1.8.0](https://github.com/LandrAudio/linting-and-formatting/compare/eslint-config-landr@1.4.1...eslint-config-landr@1.8.0) (2025-09-19)
+
+
+### Bug Fixes
+
+* build issues on master ([#128](https://github.com/LandrAudio/linting-and-formatting/issues/128)) ([4e375c1](https://github.com/LandrAudio/linting-and-formatting/commit/4e375c1f757b878f7a1466533d4c18020aa14e8f))
+* build master issue - take 3 ([#129](https://github.com/LandrAudio/linting-and-formatting/issues/129)) ([74b6670](https://github.com/LandrAudio/linting-and-formatting/commit/74b6670c27cdda6db4772e4357523ed3b7f533bc))
+* manually bump eslint-config-landr ([0fe2c54](https://github.com/LandrAudio/linting-and-formatting/commit/0fe2c548c2dfa6891a776f5fbfddbfb44b8c855b))
+
+
+### Features
+
+* add react google translate plugin ([b840825](https://github.com/LandrAudio/linting-and-formatting/commit/b840825fba3e93fd97ef1a3eff35297a749435af))
+* **distro:** use error instead of warn ([b43c1c5](https://github.com/LandrAudio/linting-and-formatting/commit/b43c1c519920b7951eb79f169eb614144c7874c0))
+
+
+
+
 
 ## [1.4.1](https://github.com/LandrAudio/linting-and-formatting/compare/eslint-config-landr@1.4.0...eslint-config-landr@1.4.1) (2024-09-16)
 

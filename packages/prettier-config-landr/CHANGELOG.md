@@ -1,22 +1,20 @@
-# v1.3.0 (Fri Sep 19 2025)
-
-#### 🔩 Dependency Updates
-
-- fix: build master issue - take 3 [#129](https://github.com/LandrAudio/linting-and-formatting/pull/129) ([@ardeois](https://github.com/ardeois))
-- fix: build issues on master [#128](https://github.com/LandrAudio/linting-and-formatting/pull/128) ([@ardeois](https://github.com/ardeois))
-- fix(prettier): support cjs and mts files [#126](https://github.com/LandrAudio/linting-and-formatting/pull/126) ([@ardeois](https://github.com/ardeois))
-- fix(prettier): support cjs and mts files ([@ardeois](https://github.com/ardeois))
-
-#### Authors: 1
-
-- Corentin Ardeois ([@ardeois](https://github.com/ardeois))
-
----
-
 # Change Log
 
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# [1.3.0](https://github.com/Mixgenius/linting-and-formatting/compare/prettier-config-landr@1.0.1...prettier-config-landr@1.3.0) (2025-09-19)
+
+
+### Bug Fixes
+
+* build issues on master ([#128](https://github.com/Mixgenius/linting-and-formatting/issues/128)) ([4e375c1](https://github.com/Mixgenius/linting-and-formatting/commit/4e375c1f757b878f7a1466533d4c18020aa14e8f))
+* build master issue - take 3 ([#129](https://github.com/Mixgenius/linting-and-formatting/issues/129)) ([74b6670](https://github.com/Mixgenius/linting-and-formatting/commit/74b6670c27cdda6db4772e4357523ed3b7f533bc))
+* **prettier:** support cjs and mts files ([0c28523](https://github.com/Mixgenius/linting-and-formatting/commit/0c28523f18cd2c71012417718c360f68fbe85e1b))
+
+
+
+
 
 ## [1.0.1](https://github.com/Mixgenius/linting-and-formatting/compare/prettier-config-landr@1.0.0...prettier-config-landr@1.0.1) (2024-09-16)
 

@@ -1,3 +1,16 @@
+# v1.1.0 (Fri Sep 19 2025)
+
+#### 🔩 Dependency Updates
+
+- fix(prettier): support cjs and mts files [#126](https://github.com/LandrAudio/linting-and-formatting/pull/126) ([@ardeois](https://github.com/ardeois))
+- fix(prettier): support cjs and mts files ([@ardeois](https://github.com/ardeois))
+
+#### Authors: 1
+
+- Corentin Ardeois ([@ardeois](https://github.com/ardeois))
+
+---
+
 # Change Log
 
 All notable changes to this project will be documented in this file.

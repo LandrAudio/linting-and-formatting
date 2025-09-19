@@ -17,7 +17,7 @@ module.exports = {
             },
         },
         {
-            files: '*.{js,ts,jsx,tsx,scss,json,html,mdx}',
+            files: '*.{js,ts,jsx,tsx,cjs,mjs,mts,scss,json,html,mdx}',
             options: {
                 tabWidth: 4,
             },

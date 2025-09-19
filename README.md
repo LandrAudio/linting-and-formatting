@@ -1,7 +1,7 @@
 # Linting & Formatting
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Monorepo to hold all shareable linting and formatting configurations.
@@ -80,6 +80,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/Ronan-Landr"><img src="https://avatars.githubusercontent.com/u/146753775?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ronan</b></sub></a><br /><a href="#infra-Ronan-Landr" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+    <td align="center"><a href="https://github.com/szum"><img src="https://avatars.githubusercontent.com/u/4643606?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lukas Switlicki</b></sub></a><br /><a href="https://github.com/LandrAudio/linting-and-formatting/commits?author=szum" title="Code">💻</a></td>
   </tr>
 </table>
 

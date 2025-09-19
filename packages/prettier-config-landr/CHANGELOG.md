@@ -1,20 +1,18 @@
-# v1.1.0 (Fri Sep 19 2025)
-
-#### 🔩 Dependency Updates
-
-- fix(prettier): support cjs and mts files [#126](https://github.com/LandrAudio/linting-and-formatting/pull/126) ([@ardeois](https://github.com/ardeois))
-- fix(prettier): support cjs and mts files ([@ardeois](https://github.com/ardeois))
-
-#### Authors: 1
-
-- Corentin Ardeois ([@ardeois](https://github.com/ardeois))
-
----
-
 # Change Log
 
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# [1.1.0](https://github.com/Mixgenius/linting-and-formatting/compare/prettier-config-landr@1.0.1...prettier-config-landr@1.1.0) (2025-09-19)
+
+
+### Bug Fixes
+
+* **prettier:** support cjs and mts files ([0c28523](https://github.com/Mixgenius/linting-and-formatting/commit/0c28523f18cd2c71012417718c360f68fbe85e1b))
+
+
+
+
 
 ## [1.0.1](https://github.com/Mixgenius/linting-and-formatting/compare/prettier-config-landr@1.0.0...prettier-config-landr@1.0.1) (2024-09-16)
 

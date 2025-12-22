@@ -115,7 +115,6 @@ module.exports = {
                     },
                 ],
                 '@typescript-eslint/no-explicit-any': 'warn',
-                '@typescript-eslint/switch-exhaustiveness-check': 'warn',
                 '@typescript-eslint/no-inferrable-types': 'error',
                 '@typescript-eslint/no-unused-expressions': ['error', { allowTernary: true, allowShortCircuit: true }],
                 'no-use-before-define': 'off',

@@ -11,6 +11,9 @@ savePrefix: '~'
 # through the onlyBuiltDependencies setting. This is to avoid possible supply chain attacks.
 # See https://pnpm.io/settings#strictdepbuilds
 strictDepBuilds: true
+onlyBuiltDependencies:
+  - 'nx'
+  - 'esbuild'
 
 # Packages must be released at least 1 day ago before being eligible for update. This is to avoid
 # compromised packages being introduced through updates right after their release.

@@ -1,0 +1,18 @@
+packages:
+  - 'packages/**'
+
+strictPeerDependencies: true
+
+# Force the use of `~` as the prefix when installing a new package
+# See https://pnpm.io/npmrc#save-prefix for more details
+savePrefix: '~'
+
+# Fail installation if a dependency has a build script (e.g. "postinstall") that is not explicitly approved
+# through the onlyBuiltDependencies setting. This is to avoid possible supply chain attacks.
+# See https://pnpm.io/settings#strictdepbuilds
+strictDepBuilds: true
+
+# Packages must be released at least 1 day ago before being eligible for update. This is to avoid
+# compromised packages being introduced through updates right after their release.
+# See https://pnpm.io/settings#minimumreleaseage
+minimumReleaseAge: 1440

@@ -4,24 +4,26 @@
     "author": "LANDR <development@landr.com>",
     "license": "MIT",
     "private": true,
-    "workspaces": [
-        "packages/*"
-    ],
+    "engines": {
+        "node": "24.10"
+    },
+    "packageManager": "pnpm@10.26.1",
     "devDependencies": {
-        "@auto-it/all-contributors": "^10.34.1",
-        "@auto-it/conventional-commits": "^10.34.1",
-        "@auto-it/slack": "^10.34.1",
-        "auto": "~11.2.1",
-        "eslint": "~8.57.0",
+        "@auto-it/all-contributors": "~11.3.6",
+        "@auto-it/conventional-commits": "~11.3.6",
+        "@auto-it/slack": "~11.3.6",
+        "auto": "~11.3.6",
+        "eslint": "~8.57.1",
         "husky": "^7.0.4",
-        "lerna": "^4.0.0",
+        "lerna": "~9.0.3",
         "lint-staged": "^12.3.5",
         "prettier": "~3.3.3",
-        "typescript": "~5.5.4"
+        "typescript": "~5.9.3"
     },
     "scripts": {
         "release": "auto shipit",
-        "prepare": "husky install"
+        "prepare": "husky install",
+        "quick-install": "pnpm install"
     },
     "auto": {
         "plugins": [

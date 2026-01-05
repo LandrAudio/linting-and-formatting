@@ -1,3 +1,15 @@
+# v2.0.0 (Mon Jan 05 2026)
+
+#### 🚀 Enhancement
+
+- feat(pnpm): update to pnpm [#134](https://github.com/LandrAudio/linting-and-formatting/pull/134) ([@MPeloquin](https://github.com/MPeloquin))
+
+#### Authors: 1
+
+- Maxime Péloquin ([@MPeloquin](https://github.com/MPeloquin))
+
+---
+
 # Change Log
 
 All notable changes to this project will be documented in this file.

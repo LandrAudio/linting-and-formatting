@@ -1,3 +1,29 @@
+# (Mon Jan 05 2026)
+
+#### 💥 Breaking Change
+
+- chore(deps): bump actions/checkout from 5 to 6 [#131](https://github.com/LandrAudio/linting-and-formatting/pull/131) ([@dependabot[bot]](https://github.com/dependabot[bot]) [@Ronan-Landr](https://github.com/Ronan-Landr))
+- chore(deps): bump actions/setup-node from 4 to 6 [#130](https://github.com/LandrAudio/linting-and-formatting/pull/130) ([@dependabot[bot]](https://github.com/dependabot[bot]) [@benoitdeziel](https://github.com/benoitdeziel))
+- chore(deps): bump actions/checkout from 4 to 5 [#124](https://github.com/LandrAudio/linting-and-formatting/pull/124) ([@dependabot[bot]](https://github.com/dependabot[bot]) [@benoitdeziel](https://github.com/benoitdeziel))
+
+#### 🚀 Enhancement
+
+- `eslint-config-landr@2.0.0`
+  - feat(pnpm): update to pnpm [#134](https://github.com/LandrAudio/linting-and-formatting/pull/134) ([@MPeloquin](https://github.com/MPeloquin))
+
+#### 🔩 Dependency Updates
+
+- fix: switch to OIDC for npm instead of token [#132](https://github.com/LandrAudio/linting-and-formatting/pull/132) ([@Ronan-Landr](https://github.com/Ronan-Landr))
+
+#### Authors: 4
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- Benoit Deziel ([@benoitdeziel](https://github.com/benoitdeziel))
+- Maxime Péloquin ([@MPeloquin](https://github.com/MPeloquin))
+- Ronan ([@Ronan-Landr](https://github.com/Ronan-Landr))
+
+---
+
 # (Fri Sep 19 2025)
 
 #### 🚀 Enhancement
